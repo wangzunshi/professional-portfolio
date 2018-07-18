@@ -1,0 +1,878 @@
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+
+/* UNIVERSAL PROPERTIES BEGINS */
+
+
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #1B76FF;
+}
+
+
+h6 {
+  color: #00C39D;
+  text-transform: uppercase;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* BUTTON CASESTUDY STYLING BEGINS */
+
+
+.button-prototype {
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+
+.button-prototype a {
+  border-color: #1B76FF;
+  color: white;
+  background-color: #1B76FF ;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+#full-guide {
+  padding-top: 2rem;
+  padding-left: 0;
+
+}
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* SECTION HEADER STYING BEGINS */
+
+.sectionheader {
+  background-color: transparent;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+
+
+}
+.sectionheader h1{
+  text-align: center;
+  color: white;
+  opacity: 1;
+
+}
+
+#logo-ca img{
+  padding-top: 5rem;
+}
+
+
+
+#research {
+  background-image: url(/images/background-research2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+#architecture {
+  background-image: url(/images/background-arch2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#brand {
+  background-image: url(/images/background-brand2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#prototype {
+  background-image: url(/images/background-prototype2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+#conclusion {
+  background-image: url(/images/background-conclusion2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* QUICK ACCESS BEGINS */
+.quickaccess-title h4 {
+  text-align: center;
+  color: #1B76FF;
+  text-transform: uppercase;
+  padding-bottom: 3rem;
+
+}
+
+.quickaccess-content h4 {
+  text-align: center;
+  color: #00C39D;
+  text-transform: uppercase;
+  font-family: Overlock;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+#realm-intro1 {
+  margin-top: -1rem;
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+#realm-intro1 h6{
+  padding-top: 2rem;
+  color: white;
+  font-size: 9.6rem;
+  font-weight: 400;
+  font-family: Filson-soft;
+}
+
+#realm-intro1 h2 {
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Filson-soft;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+#realm-intro2 h2 {
+  width: 100%;
+  margin: 0 auto;
+  font-family: Filson-soft;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.flex-realm-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-realm{
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+.flex-realm-summary-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-realm-summary{
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+
+/* INTRODUCTION BEGINS */
+.conclusion h5{
+  padding-bottom: 2rem;
+}
+
+.section-text h6 {
+  padding-top: 2rem;
+
+}
+
+
+#summary p{
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.flex-problem-solution-container {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+
+.flex-problem-solution{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-problem-solution hr{
+  background-color: #1B76FF;
+  border: none;
+  height: 0.1rem;
+
+}
+
+
+
+#deliverables hr {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  background-color: #1B76FF;
+  border: none;
+  height: 0.1rem;
+
+}
+
+
+
+
+.roletool h2 {
+  text-align: center;
+  width: 100%;
+  color: #1B1818;
+  font-family: Filson-soft;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 2rem;
+}
+
+.flex-roletool-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.flex-roletool{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.flex-role-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.flex-role{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.flex-tool-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.flex-tool{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-tool-text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.flex-realm-content{
+  list-style-type: none;
+  margin: 0 ;
+
+}
+
+.flex-realm-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.flex-realm-content2{
+  list-style-type: none;
+  margin: 0 ;
+
+}
+
+.flex-realm-content2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.flex-realm-content3{
+  list-style-type: none;
+  margin: 0 ;
+
+}
+
+.flex-realm-content3-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+
+
+
+.brand-section h6 {
+  padding-top: 2rem;
+}
+
+
+.flex-tool-text{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-persona-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.flex-persona{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-persona-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+
+.flex-persona-sub{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+#role-image {
+  width: 40%;
+}
+
+#role-text {
+  width: 60%;
+}
+
+#tool-image{
+  width: 25%;
+}
+
+
+
+#width-weird {
+  width: 38.7%;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* RESEARCH BEGINS */
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* INFORMATION ARCHITECTURE BEGINS */
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* BRAND identity BEGINS */
+
+
+.brand-section h4 {
+  margin-bottom: 3rem;
+
+}
+
+#brand-section-h4 h4 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+
+#moodboard-text {
+  padding-top: 12rem;
+}
+
+#preference-testing-image img {
+  padding-top: 5rem;
+}
+
+
+.right-type-image {
+  display: block;
+  max-width: 73.3%;
+  margin: 0;
+  float: right;
+}
+
+.left-type-text {
+  width: 20%;
+}
+
+.left-type-text p {
+  line-height: 130%;
+}
+.right-type-image img {
+  padding-top: 5rem;
+
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* PROTOTYPE BEGINS */
+
+
+
+.section-text h4 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+
+
+
+.brand-section h2 {
+  font-weight: 400;
+
+}
+
+
+
+
+
+#research {
+  cursor: pointer;
+}
+
+
+
+
+
+
+.persona-lineone {
+  font-weight: 400;
+  text-align: center;
+  color: #1B1818;
+  position: initial;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+
+.persona-linetwo {
+  color: #1B1818;
+  font-size: 1.4rem;
+  font-weight: 200;
+  padding-bottom: 2rem;
+  position: initial;
+  text-align: center;
+}
+
+.persona-linethree {
+  color: #1B1818;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+  text-transform: inherit;
+  padding-bottom: 2rem;
+  position: initial;
+
+}
+
+.persona-paragraph {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-align: left;
+  color: #1B1818;
+  position: initial;
+  font-family: 'Fira Sans';
+}
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* CONCLUSION BEGINS */
+
+
+.paragraph {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.paragraph h6 {
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* media query for desktop ends  */
+
+
+
+@media screen and (max-width: 575px){
+  .quick-access-container {
+    display: none;
+  }
+
+  #realm-intro1 h6 {
+    font-size: 4rem;
+  }
+
+#realm-intro1 h2 {
+  font-size: 1.4rem;
+  line-height: 200%;
+}
+
+#realm-intro2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+#realm-intro2 h2 {
+  font-size: 1.4rem;
+  line-height: 200%;
+
+}
+  #realm-intro1 {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+#summary {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+#summary p{
+  padding-bottom: 2rem;
+}
+  .background-image {
+    width: 575px;
+  }
+
+
+#mobile-solution {
+  padding-top: 0rem;
+}
+
+
+.flex-designprocess-subcontainer {
+  padding-top: 5rem;
+
+}
+
+#width-weird {
+  width: 100%;
+}
+
+#role-image, #tool-image {
+  width: 143px;
+  padding-bottom: 2rem;
+}
+
+.width-8-15{
+  width: 100%;
+}
+
+.width-half
+
+ {
+  width: 100%;
+}
+
+#role-text h2 {
+  padding-bottom: 5rem;
+}
+.intro-headline2 h2 {
+  font-size: 1.6rem;
+  width: 100%;
+}
+
+.intro-headline {
+  padding-top: 0;
+  padding-bottom: 4rem;
+}
+
+.button-prototype a {
+  display: inline-block;
+  text-align: center;
+}
+
+#view-prototype {
+  width: 100%;
+}
+
+
+
+.problem-solution li {
+ list-style-type: none;
+}
+
+
+.problem, .solution {
+  width: 100%;
+  float: none;
+}
+
+.problem {
+  padding-bottom: 5rem;
+
+}
+
+
+.role-image, .tools-image, .role-text, .tools-text, .tools-text-2 {
+  max-width: 100%;
+
+}
+
+.role-text,.tools-text, .tools-text-2 {
+  float: none;
+  padding: 0;
+}
+
+.tools-text h4 {
+  position: initial;
+  left: 0;
+}
+
+.sectionheader {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+
+
+#logo-ca img {
+  padding-bottom: 5rem;
+}
+
+#mobile-keyfindings {
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+}
+
+#mobile-research {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.image-hidden {
+  display: none;
+}
+
+.padding-10-top, {
+  padding-top: 2rem;
+}
+
+.padding-10-bottom {
+  padding-bottom: 2rem;
+}
+.brand-section h4 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#view-prototype-2, .width-11-15 {
+  width: 100%;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+.flex-persona-subcontainer img{
+  width: 42.8%;
+}
+
+.padding-10 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+#persona-right {
+  padding-top: 6rem;
+}
+
+
+.flex-persona-sub:nth-of-type(4) {
+
+padding-top: 3rem;
+}
+.flex-realm-content2:nth-of-type(1) {
+  padding-bottom: 3rem;
+
+
+}
+
+.flex-realm-content h6 {
+  font-size: initial;
+}
+
+.flex-realm-content {
+  padding-bottom: 0rem;
+}
+
+.flex-realm-content3:nth-of-type(1) {
+  order: 2;
+
+}
+.flex-realm-content3:nth-of-type(2) {
+  order: 1;
+  padding-bottom: 3rem;
+
+}
+
+.uni-button {
+  text-align: center;
+}
+
+.flex-realm-content-container {
+  padding-top: 0rem;
+}
+
+#brand-section-h4 {
+  padding-top: 0rem;
+
+}
+
+.width-3-15 {
+  width: 100%;
+}
+
+.width-third {
+  width: 100%;
+}
+
+.paragraph {
+  padding-top: 0rem;
+}
+
+.padding-10-top {
+  padding-top: 6rem;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* media query for smartphone ends  */

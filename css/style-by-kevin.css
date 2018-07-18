@@ -1,0 +1,1416 @@
+@charset "UTF-8";
+
+
+
+/* GALLERY FUNCTIONS BEGINS */
+
+.featherlight-image {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.featherlight .featherlight-close-icon {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: none;
+  color: darkgray;
+  font-size: 20px;
+  outline: none;
+  position: fixed !important;
+}
+
+.featherlight .featherlight-content {
+  padding: 10px 10px 0;
+  border-bottom: 10px solid transparent;
+  background: none !important;
+
+}
+
+.featherlight-next, .featherlight-previous {
+  display: block;
+
+}
+.featherlight:last-of-type {
+  background: rgba(0,0,0,0.85);
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* UNIVERSAL PROPERTIES BEGINS */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Filson-soft;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+
+h1,h2,h3,h4,h5,h6,p,a,i {
+  color: #1B1818;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 5rem;
+  line-height: 130%;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: left;
+  letter-spacing: 0.04em;
+
+}
+h3 {
+  font-family: Filson-soft;
+  font-size: 3.6rem;
+  font-weight: 200;
+  margin: 0;
+
+}
+
+
+h4 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+h5 {
+  font-family: Overlock;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin: 0;
+
+}
+
+h6 {
+  font-family: Overlock;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.1rem;
+
+}
+
+p {
+  font-family: Overlock;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 170%;
+  letter-spacing: 0.13rem;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+}
+.banner {
+  background-color: #FFF8F2;
+  height: 12rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.banner-white {
+  background-color: white;
+}
+.banner-transparent {
+  background-color: transparent;
+}
+
+.background-almostblack {
+  background-color: #454545;
+}
+
+.background-pink {
+  background-color: #FFF8F2;
+}
+
+.background-gray {
+  background-color: #F9F9F9;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.background-blue {
+  background-color: #1B76FF
+}
+
+.background-yellow {
+  background-color: #F7F5F1;
+}
+
+
+.button-center {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+.padding-side-left {
+  padding-left: 24rem;
+}
+
+.padding-side-right {
+  padding-right: 24rem;
+}
+
+
+.padding-5{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.padding-20 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.padding-10 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.padding-2-up {
+  padding-top: 2rem;
+
+}
+
+.padding-2-bottom {
+  padding-bottom: 2rem;
+
+}
+
+.padding-5-up {
+  padding-top: 5rem;
+
+}
+
+.padding-5-bottom {
+  padding-bottom: 5rem;
+
+}
+
+.padding-20-top {
+  padding-top: 20rem;
+}
+
+.padding-20-bottom {
+  padding-bottom: 20rem;
+}
+
+.padding-15-top {
+  padding-top: 15rem;
+}
+
+.padding-15-bottom {
+  padding-bottom: 15rem;
+}
+
+
+.margin-auto-center {
+  margin: 0 auto;
+}
+
+
+
+.padding-10-top {
+  padding-top: 10rem;
+}
+
+.padding-10-bottom {
+  padding-bottom: 10rem;
+}
+
+
+.width-logo {
+  width: 10%;
+  width: 120px;
+  height: 90px;
+}
+.width-nav-text {
+  width: 90%;
+  width: 327px;
+}
+
+.width-designprocess {
+  width: 28.8%;
+}
+.width-1-15 {
+  width: 6.67%;
+}
+
+.width-2-15 {
+  width: 13.3%;
+}
+.width-3-15 {
+  width: 20%;
+}
+.width-4-15 {
+  width: 26.7%;
+}
+
+.width-8-15 {
+  width: 53.3%;
+}
+.width-10-15 {
+  width: 66.7%;
+}
+.width-11-15{
+  width: 73.3%;
+}
+
+/* 5/15 */
+.width-third {
+  width: 33.3%;
+}
+
+
+/* 7-15 */
+.width-half {
+  width: 46.7%;
+}
+
+/* 9-15 */
+.width-60 {
+  width: 60%;
+}
+
+/* 15-15 */
+.width-full {
+  width: 100%;
+}
+
+
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* QUICK ACCESS FOR CASE STUDIES BEGINS */
+.quick-access-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 35%;
+  margin-left: 90%;
+  position: fixed;
+}
+
+.quick-access{
+  list-style-type: none;
+  text-align: left;
+}
+
+.quick-access-container h6 {
+  font-weight: 200;
+  color: #1B1818;
+}
+
+.quick-access a {
+  cursor: pointer;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* HOVERS BEGIN */
+
+#portal a i:hover {
+  opacity: .5;
+
+}
+
+
+.imagehover img:hover, .imagehover img:active {
+  opacity: 0.5;
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
+}
+
+
+.button-otherdesign a:hover, .button-otherdesign a:active {
+  border-color: white;
+  border-style: solid;
+  border-width: 0.01em;
+  opactiy: 0.65;
+  background-color: #454545;
+  color: white;
+}
+
+
+.content-right p:hover, .content-right p:active, .uni-button a:hover, .uni-button a:active, .uni-button a:hover, .uni-button a:active  {
+
+  opacity: 0.5;
+
+
+}
+
+.quick-access p:hover, .quick-access p:active ,.left-text h5:hover, .left-text h5:active, .right-text h5:hover, .right-text h5:active, .section-text h5:hover, .section-text h5:active, .button-otherdesign a:hover, .button-otherdesign a:active, .submit-button-wrapper a:hover, .submit-button-wrapper a:active{
+  opacity: 0.5;
+}
+
+.others a:hover, .others a:active, .otherprojects img:hover, .otherprojects img:active {
+  opacity: 0.5;
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
+}
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* NAVIGATION BAR BEGINS */
+.flex-nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-nav{
+  list-style-type: none;
+  text-align: center;
+}
+
+.flex-nav-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.flex-nav-sub{
+  list-style-type: none;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+
+.banner img {
+  max-width: 100%;
+
+}
+
+#nav-text {
+  padding-top: 5rem;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* CONTACT BEGINS */
+
+
+.flex-contact-container, {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-contact{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-contact-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 auto;
+}
+
+.flex-contact-sub{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#contact-template h3 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+#contact-template p {
+  line-height: 160%;
+  text-align: center;
+}
+
+.uni-button a{
+  border-style: solid;
+  border-width: 0.13rem;
+  border-color: #454545;
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-family: Overlock;
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  width: 170px;
+  text-align: center;
+}
+
+
+
+
+
+
+/* FOOTER  BEGINS */
+
+.fab, .fa-instagram, .fab, .fa-linkedin, .fab, .fa-facebook, far, .fa-envelope {
+  color: white;
+}
+
+.flex-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-footer{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.flex-footer h6 {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.flex-footer-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.flex-footer-width {
+  width: 18%;
+  margin: 0 auto;
+}
+
+.flex-footer-sub {
+  list-style-type: none;
+  margin: 0;
+
+}
+
+.flex-footer-sub a {
+  display: inline-block;
+  font-size: 1.5em;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* START PAGE BEGINS */
+.flex-heroindex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-heroindex{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#content-start {
+  background-attachment: fixed;
+  background-image: url(/images/logo-background.png);
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+}
+
+#box-text {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20rem;
+}
+
+#box-text h1 {
+  line-height: 170%;
+  width: 86.7%;
+  margin: 0 auto;
+}
+
+#content-start h2 {
+  padding-top: 23rem;
+}
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* PROJECT DISPLAY BEGINS */
+
+.flex-display-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-display{
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+
+#mains h1 {
+  font-weight: 200;
+  text-align: left;
+}
+
+#mains p {
+  font-weight: 600;
+  text-align: left;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#mains h6 {
+  text-align: left;
+
+}
+.cover-image img{
+  width: 100%;
+  position: relative;
+  bottom: 12rem;
+}
+
+#linetwo {
+  padding-bottom: 2rem;
+}
+
+#casestudy {
+  padding: 0rem;
+  text-align: left;
+}
+
+#casestudy a {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* TOOLS BEGINS */
+
+
+#tools p {
+  line-height: 200%;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#tools h3 {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+
+/* design process  */
+
+.flex-designprocess-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-designprocess{
+  font-size: 2.2rem;
+  font-weight: 200;
+  line-height: 180%;
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 1rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.flex-designprocess-subcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-designprocess-sub{
+  list-style-type: none;
+  margin: 0;
+}
+
+.flex-designprocess-container h1{
+  padding-bottom: 3rem;
+}
+
+
+.flex-designprocess-container h3 {
+  padding-bottom: 3rem;
+}
+
+.flex-designprocess h6 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: Filson-soft;
+  padding-bottom: 2rem;
+  color: #1B1818;
+}
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+/* media query section  */
+
+
+/* @media screen and (min-width: 575px){
+
+
+@media screen and (min-width: 991px){
+
+
+@media screen and (min-width: 1199px){
+
+
+*/
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* About page  */
+
+
+/* introduction */
+.introduction-backgroundimage {
+  background-image: url(/images/bio-backgroundlogo.png);
+  background-repeat: no-repeat;
+  background-position: 50% 60%;
+  background-size: 65%;
+  background-attachment: fixed;
+}
+
+.flex-herobio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-herobio{
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+.flex-herobio img {
+
+  width: 315px;
+}
+
+
+
+
+
+
+#introduction h1 {
+  font-size: 3.6rem;
+}
+#introduction h3 {
+  padding-bottom: 3rem;
+}
+
+#introduction h6 {
+  font-size: 1.6rem;
+  font-weight: 200;
+  margin: 0;
+}
+
+#bio-text {
+  margin: 0 auto;
+}
+
+#bio-text h1 {
+  padding-bottom: 2rem;
+}
+
+#bio-text p{
+  line-height: 300%;
+}
+/* transition  */
+
+#transition h1, #transition p {
+  color: white;
+}
+
+#transition h1 {
+  font-size: 3.6rem;
+}
+
+.right-text-trans h1 {
+  text-align: right;
+}
+
+#transition p {
+  padding-top: 7rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-trans-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+    align-items: center;
+}
+
+.flex-trans{
+  list-style-type: none;
+  height: auto;
+  margin: 0;
+
+}
+
+
+#realization img {
+  max-width: 80%;
+}
+
+#realization {
+  text-align: center;
+}
+.flex-trans h5 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+
+/* growth */
+
+#growth {
+  text-align: center;
+}
+#growth img {
+  max-height: 35rem;
+}
+
+/* reality */
+
+#reality {
+  text-align: center;
+}
+#reality img {
+  width: 75%;
+}
+
+/* other design */
+
+.flex-trans-subcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+
+}
+
+.flex-trans-sub{
+  list-style-type: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#otherdesign h1 {
+  padding-bottom: 5rem;
+  font-size: 3.6rem;
+}
+
+#otherdesign img {
+  max-width: 71.4%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
+#button-otherdesign a {
+  color: white;
+  background-color: #454545;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* contact page */
+
+
+.flex-contactform-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-contactform{
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.contactpage-background {
+  background-image: url(/images/bio-backgroundlogo.png);
+  background-repeat: no-repeat;
+  background-position: 47% 50%;
+  background-size: 50%;
+  background-attachment: fixed;
+}
+
+#contactpage-text h1{
+  font-weight: 400;
+  text-align: center;
+
+}
+
+#contactpage-text h3 {
+  font-weight: 200;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.form-field {
+  background-color: transparent;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  display: block;
+  font-family: Filson-soft;
+  font-size: 2.2rem;
+  font-weight: 100;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  min-height: 5rem;
+  padding: 1rem 0 1rem 1rem;
+  width: 46.7%;
+}
+
+.textarea {
+  min-height: 25rem;
+}
+
+input:focus, textarea:focus{
+  outline: none !important;
+  border:0.1rem solid lightgray;
+}
+
+.submit-button {
+  background-color: #454545;
+  border-style: none;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Overlock;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  padding: 0.7rem 4.2rem 0.7rem 4.2rem;
+  text-align: center;
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+/* other projects page  */
+
+.others h2 {
+  font-weight: 100;
+  text-align: right;
+}
+
+.others h3{
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-bottom: 5rem;
+}
+
+.others h6 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.flex-otherprojects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.flex-otherprojects {
+  list-style-type: none;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.flex-otherprojects-container img {
+  width: 100%;
+}
+
+.flex-gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+
+.flex-gallery{
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.flex-gallery-container img {
+  width: 100%;
+}
+
+#gallery-link a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.desktop-hidden {
+  display: none;
+
+}
+.mobile-hidden {
+  display: block;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* media query for desktop ends  */
+@media screen and (max-width: 1440px){
+.padding-side-left {
+  padding-left: 12rem;
+
+}
+.padding-side-right  {
+  padding-right: 12rem;
+
+}
+
+ }
+@media screen and (max-width: 1280px){
+.padding-side-left {
+  padding-left: 4rem;
+
+}
+.padding-side-right  {
+  padding-right: 4rem;
+
+}
+
+ }
+/* 575px */
+
+@media screen and (max-width: 990px){
+  .desktop-hidden {
+    display: block;
+
+  }
+  .mobile-hidden {
+    display: none;
+  }
+
+  .width-half,
+  .width-third,
+  .width-60,
+  .width-3-15,
+  .width-10-15,
+  .width-11-15,
+  .width-designprocess
+   {
+    width: 100%;
+  }
+
+  .flex-footer-width {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+
+
+  .padding-10 {
+
+  }
+
+
+  .padding-side-left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .padding-side-right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+#growth {
+  text-align: center;
+}
+
+ h1 {
+   font-size: 3.6rem;
+ }
+ h2 {
+
+ }
+ h3 {
+   font-size: 3rem;
+ }
+
+ h4 {
+
+ }
+
+ h5 {
+
+ }
+
+ h6 {
+   font-size: 1.2rem;
+ }
+
+ p {
+   font-size: 1.8rem;
+ }
+
+
+
+
+/* navigation  */
+
+
+.width-logo {
+  width: 17.9%;
+}
+.width-nav-text {
+  width: 82.1%;
+}
+
+.flex-nav-sub {
+  padding-left: 3rem;
+}
+
+#nav-text {
+  padding-top: 3rem;
+}
+
+
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+
+
+
+
+/* hero-image  */
+
+#box-text {
+  padding-top:5rem;
+  padding-bottom: 5rem;
+}
+
+#featured-project h2{
+  padding: 0;
+  text-align: center;
+  padding-bottom: 14rem;
+}
+
+#content-start {
+  background-size: 100%;
+}
+
+.cover-image img {
+  bottom: 14rem;
+}
+
+.flex-display:nth-of-type(1) {
+  order: 2;
+  position: relative;
+  bottom: 7em;
+}
+
+.flex-display:nth-of-type(2) { order: 1; }
+
+
+#mains h1, #mains p, #mains h6 {
+  text-align: center;
+}
+#casestudy {
+  text-align: center;
+}
+
+#mains p {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+
+#portal a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.flex-buttons {
+  display: block;
+}
+
+
+/* design process */
+
+.mobile-designprocess-padding {
+  padding-bottom: 5rem;
+}
+
+
+/* biopage */
+
+
+.flex-herobio:nth-of-type(1) { order: 2; }
+.flex-herobio:nth-of-type(2) { order: 1; }
+.flex-herobio:nth-of-type(3) { order: 3; }
+
+#introduction img {
+  width: 71%;
+}
+
+
+
+
+
+.flex-trans-2:nth-of-type(1) { order: 2; }
+.flex-trans-2:nth-of-type(2) { order: 1; }
+
+
+#realization .padding-10-top,
+#growth .padding-10-top,
+#reality .padding-10-top {
+  padding-top: 0rem;
+}
+
+
+#realization .padding-10,
+#growth .padding-10,
+#reality .padding-10 {
+  padding-bottom: 7.5rem;
+}
+
+
+
+
+#reality img {
+  width: 100%;
+}
+
+
+.padding-15-top {
+  padding-top: 2rem;
+}
+
+#introduction .padding-10 {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+#introduction .padding-10-bottom {
+  padding-bottom: 0rem;
+}
+
+#bio-text p{
+  line-height: 170%;
+}
+
+#transition h1 {
+  text-align: center;
+}
+#transition p {
+  padding: 0;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.bio-image img {
+  max-width: 100%;
+  float: none;
+  padding-bottom: 5rem;
+}
+
+#growth img {
+  max-height: 30rem;
+  margin: 0 auto;
+}
+
+
+#realization img {
+  max-width: 100%;
+}
+#otherdesign-text {
+  width: 100%;
+  padding-top: 0rem;
+
+}
+
+#otherdesign img {
+  max-width: 100%;
+  float: none;
+}
+
+#otherdesign-text h1 {
+
+}
+
+#button-otherdesign {
+  float: none;
+}
+
+/* contact page  */
+
+
+.contactpage-text h3{
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+.form-field {
+  width: 90%;
+}
+
+.submit-button-wrapper a{
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+
+
+}
+
+.submit-button-wrapper {
+  width: 100%;
+}
+.contactpage-wrapper {
+  background-size: 85%;
+}
+
+
+/* otherdesign project  */
+
+.flex-otherprojects, .flex-gallery {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+
+.flex-otherprojects, .flex-gallery li {
+  width: 100%;
+}
+
+.others h3 {
+  padding: 0;
+
+}
+
+#otherproject-kevin {
+  padding-top: 15rem;
+  padding-bottom: 0rem;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
+/* media query for smartphone ends  */
