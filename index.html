@@ -1,91 +1,64 @@
-<!D<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <!-- 内容属性 character set is different encoding methods, UTF-8 is one type that lets you display all special characters and languages
--->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--Viewport meta element: transforms a regular webpage to a responsive webpage, the one included is best/common practice. -->
-<meta name="description" content="Zunshi(Kevin) Wang, UX designer who enjoys creating user-friendly, delightful and thoughtful experiences">
-<!--
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Viewport meta element: transforms a regular webpage to a responsive webpage, the one included is best/common practice. -->
+  <meta name="description" content="Zunshi(Kevin) Wang, UX designer who enjoys creating user-friendly, delightful and thoughtful experiences">
+  <!--
 
-Built and maintained by zunshi(kevin) wang, my second from-scratch website project,
-in montreal, quebec in 2018
+  Built and maintained by zunshi(kevin) wang, my second from-scratch website project,
+  in montreal, quebec in 2018
 
--->
-<!-- ALL LINK REFERENCES START  -->
-<!-- link rel defines the relationship between the current index with which ever file you are connecting with.  -->
+  -->
 
 
-<!-- Typeface STARTED  -->
-<link href="https://fonts.googleapis.com/css?family=Overlock:400,400i,700,700i,900,900i" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
+  <!-- ALL LINK REFERENCES START  -->
+  <!-- link rel defines the relationship between the current index with which ever file you are connecting with.  -->
 
-<!-- CSS  -->
-<link href="css/all.css" type="text/css" rel="stylesheet" >
+  <!-- Typeface STARTED  -->
+  <link href="https://fonts.googleapis.com/css?family=Overlock:400,400i,700,700i,900,900i" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
 
-<link href="css/featherlight.css" type="text/css" rel="stylesheet" >
-<link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
+  <!-- CSS  -->
+  <link href="css/all.css" type="text/css" rel="stylesheet" >
+  <link href="css/featherlight.css" type="text/css" rel="stylesheet" >
+  <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
+  <link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
 
+  <!-- FAVI ICON -->
+  <link rel="icon" type="image/svg" href="/images/FAVI.png">
 
-<link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
-
-<link href="css/grid.css" type="text/css" rel="stylesheet" >
-
-<link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
-
-
-<!-- JAVASCRIPT  -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//code.jquery.com/jquery-latest.js"></script>
-
-<script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
-
-<script src="js/scrollTo.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
-
-
-<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-
-
-<script>
-$(document).ready(function(){
-  $('a.gallery').featherlightGallery({
-    previousIcon: '&#9664;',     /* Code that is used as previous icon */
-    nextIcon: '&#9654;',         /* Code that is used as next icon */
-    galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
-    galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
+  <!-- INITIATE FEATHERLIGHT GALLERY -->
+  <script>
+  $(document).ready(function(){
+    $('a.gallery').featherlightGallery({
+      previousIcon: '&#9664;',     /* Code that is used as previous icon */
+      nextIcon: '&#9654;',         /* Code that is used as next icon */
+      galleryFadeIn: 100,          /* fadeIn speed when slide is loaded */
+      galleryFadeOut: 300          /* fadeOut speed before slide is loaded */
+    });
   });
-});
+  </script>
 
+  <!-- GOOGLE ANALYTICS BEGINS -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-</script>
+  ga('create', 'UA-104503936-1', 'auto');
+  ga('send', 'pageview');
 
-
-
-<link rel="icon" type="image/png" href="favicon.png">
-<!-- ALL LINK REFERENCES END -->
-<!-- GOOGLE ANALYTICS BEGINS -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-104503936-1', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-<!-- GOOGLE ANALYTICS ENDS -->
-<title>Portfolio | ZUNSHI WANG</title>
+  </script>
+  <!-- GOOGLE ANALYTICS ENDS -->
+  <title>Portfolio | Zunshi Wang</title>
 </head>
 
 
@@ -96,7 +69,6 @@ ga('send', 'pageview');
       <a class="logo" href="index.html">
         <img id="logo" src="images/NAV-LOGO.svg">
       </a>
-
     </li>
 
     <li class="flex-nav width-nav-text " id="nav-text">
@@ -118,18 +90,12 @@ ga('send', 'pageview');
           </li>
         </ul>
       </li>
+  </ul>
+    <!--END OF NAVIGATION BAR -->
 
-    </ul>
-
-
-    <!--
-
-    <!-END OF NAVIGATION BAR -->
-
-    <!-- BEGIN OF START SECTION -->
 
     <ul class="flex-heroindex-container background-pink padding-10-top " id="content-start">
-
+      <!-- BEGIN OF HERO IMAGE -->
       <li class="flex-heroindex width-full padding-side-left padding-side-right" id="box-text">
         <h1>Hello! I'm Kevin, an architect-turned-UX Designer from Montreal.</h1>
         <div class="padding-2-up">
@@ -139,23 +105,20 @@ ga('send', 'pageview');
       </li>
 
       <li class="flex-heroindex width-full padding-side-left padding-side-right" id="featured-project">
-        <div class="mobile-hidden">
+        <div class="mobile-hidden-1280">
           <h2>FEATURED PROJECT   &nbsp >></h2>
-
         </div>
-        <div class="desktop-hidden">
+        <div class="desktop-hidden-1280">
           <h2>FEATURED PROJECT   &nbsp </h2>
-
         </div>
       </li>
+      <!-- END OF HERO IMAGE -->
 
-
+      <!-- BEGIN OF PROJECT DISPLAY -->
       <li class="flex-heroindex width-full">
-        <ul class="flex-display-container background-white padding-5-up  " id="mains">
+        <ul class="flex-display-container background-white padding-5-up padding-5-bottom  " id="mains">
 
-
-          <!-- BEGIN OF PROJECT DISPLAY -->
-          <li class="flex-display padding-side-left width-third ">
+          <li class="flex-display padding-side-left width-third " >
             <h1>Realm</h1>
             <p>A cloud based SaaS application that empowers users to create, manage, and collaborate. </p>
 
@@ -170,11 +133,8 @@ ga('send', 'pageview');
               </a>
             </div>
           </li>
-          <!--END OF PROJECT DISPLAY -->
 
-
-
-          <li class="flex-display  padding-side-right width-10-15 ">
+          <li class="flex-display  padding-side-right width-10-15 " id="mains-right">
             <div class="cover-image">
               <a href="realmpage.html">
                 <img src="images/realm-coverphoto.png">
@@ -182,163 +142,164 @@ ga('send', 'pageview');
             </div>
           </li>
         </ul>
-
       </li>
+      <!--END OF PROJECT DISPLAY -->
 
       <!--BEGIN OF TOOLS -->
       <li class="flex-heroindex width-full padding-side-left padding-side-right padding-10" id="tools">
         <h3>TOOLS I USE</h3>
         <p>  <b>Figma | PhotoShop | Illustrator | InDesign | Balsamiq | InVision</b>  </p>
-        <p> <b>Html & CSS | JavaScript | JQuery | Git</b>  </p>
+        <p> <b>Html & CSS | JavaScript | Git</b>  </p>
         <p>AutoCAD | Rhino | 3DsMax | Grasshopper | ArchiCAD</p>
       </li>
+
       <!--END OF TOOLS -->
+
     </ul>
 
 
-    <!-- END OF START SECTION -->
-
-
-
     <!--BEGIN OF DESIGN PROCESS -->
-
-
     <ul class="flex-designprocess-container padding-10 width-full padding-side-left padding-side-right">
 
-        <li class="flex-designprocess width-full"><h3>DESIGN PROCESS</h3></li>
+      <li class="flex-designprocess width-full"><h3>DESIGN PROCESS</h3></li>
 
       <li class="flex-designprocess width-designprocess mobile-designprocess-padding">
         <ul class="flex-designprocess-subcontainer ">
           <li class="flex-designprocess-sub"> <h6>Research</h6> </li>
-            <li class="flex-designprocess-sub">User Interviews</li>
-            <li class="flex-designprocess-sub">User Surveys</li>
-            <li class="flex-designprocess-sub">User Personas</li>
-            <li class="flex-designprocess-sub">Competitive Analysis</li>
-          </ul>
-        </li>
+          <li class="flex-designprocess-sub">User Interviews</li>
+          <li class="flex-designprocess-sub">User Surveys</li>
+          <li class="flex-designprocess-sub">User Personas</li>
+          <li class="flex-designprocess-sub">Competitive Analysis</li>
+        </ul>
+      </li>
+
+      <li class="flex-designprocess width-1-15 mobile-hidden">
+        <img src="/images/sign.svg" alt="">
+      </li>
+
+      <li class="flex-designprocess width-designprocess mobile-designprocess-padding">
+        <ul class="flex-designprocess-subcontainer">
+          <li class="flex-designprocess-sub">
+            <h6>Architecture</h6>
+          </li>
+
+          <li class="flex-designprocess-sub">User Stories/Flows</li>
+          <li class="flex-designprocess-sub">Sitemap</li>
+          <li class="flex-designprocess-sub">Wireframes</li>
+          <li class="flex-designprocess-sub">User Testing</li>
+          <li class="flex-designprocess-sub">Refinements</li>
+        </ul>
+      </li>
+
+      <li class="flex-designprocess width-1-15 mobile-hidden">
+        <img src="/images/sign.png" alt="">
+      </li>
+
+      <li class="flex-designprocess width-designprocess">
+        <ul class="flex-designprocess-subcontainer">
+          <li class="flex-designprocess-sub">
+            <h6>Design</h6>
+          </li>
+
+          <li class="flex-designprocess-sub">Branding and Identity </li>
+          <li class="flex-designprocess-sub">Style Guide</li>
+          <li class="flex-designprocess-sub">Basic-front-end</li>
+          <li class="flex-designprocess-sub">Interactive prototypes</li>
+          <li class="flex-designprocess-sub">Critical analysis</li>
+        </ul>
+      </li>
+
+    </ul>
+    <!--END OF DESIGN PROCESS -->
 
 
-        <li class="flex-designprocess width-1-15 mobile-hidden">
-          <img src="/images/sign.svg" alt="">
-        </li>
+    <!-- BEGIN OF CONTACT-->
+    <ul class="flex-contact-container background-gray padding-10 " id="contact-template">
 
-        <li class="flex-designprocess width-designprocess mobile-designprocess-padding">
-          <ul class="flex-designprocess-subcontainer">
-            <li class="flex-designprocess-sub">
-              <h6>Architecture</h6>
-            </li>
+      <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right" id="max-width-contact">
+        <h3>Let's chat!</h3>
+        <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
+      </li>
 
-            <li class="flex-designprocess-sub">User Stories/Flows</li>
-            <li class="flex-designprocess-sub">Sitemap</li>
-            <li class="flex-designprocess-sub">Wireframes</li>
-            <li class="flex-designprocess-sub">User Testing</li>
-            <li class="flex-designprocess-sub">Refinements</li>
-          </ul>
-        </li>
+      <li class="flex-contact width-full">
+        <ul class="flex-contact-subcontainer" id="contact-footer">
 
-        <li class="flex-designprocess width-1-15 mobile-hidden">
-          <img src="/images/sign.png" alt="">
-        </li>
+          <li class="flex-contact-sub uni-button padding-2-bottom ">
+            <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
+              Resume
+            </a>
+          </li>
 
-        <li class="flex-designprocess width-designprocess">
-          <ul class="flex-designprocess-subcontainer">
-            <li class="flex-designprocess-sub">
-              <h6>Design</h6>
-            </li>
-
-            <li class="flex-designprocess-sub">Branding and Identity </li>
-            <li class="flex-designprocess-sub">Style Guide</li>
-            <li class="flex-designprocess-sub">Basic-front-end</li>
-            <li class="flex-designprocess-sub">Interactive prototypes</li>
-            <li class="flex-designprocess-sub">Critical analysis</li>
-          </ul>
-        </li>
-      </ul>
-
-      <!--END OF DESIGN PROCESS -->
-
-
-
-
-      <!-- BEGIN OF CONTACT-->
-      <ul class="flex-contact-container background-gray padding-10 " id="contact-template">
-        <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right">
-          <h3>Let's chat!</h3>
-          <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
-        </li>
-
-        <li class="flex-contact width-full">
-          <ul class="flex-contact-subcontainer width-third">
-
-            <li class="flex-contact-sub uni-button padding-2-bottom ">
-              <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
-                Resume
+          <li class="flex-contact-sub uni-button padding-2-bottom">
+            <section data-featherlight-gallery data-featherlight-filter="a">
+              <a href="Additional Files/qr codes.png">
+                QR Codes
               </a>
-            </li>
+            </section>
+          </li>
 
-            <li class="flex-contact-sub uni-button padding-2-bottom">
-              <section data-featherlight-gallery data-featherlight-filter="a">
-                <a href="Additional Files/qr codes.png">
-                  QR Codes
-                </a>
-              </section>
-            </li>
+        </ul>
+      </li>
 
-          </ul>
-        </li>
-      </ul>
-
-      <!-- END OF CONTACT-->
+    </ul>
+    <!-- END OF CONTACT-->
 
 
+    <!-- BEGIN OF FOOTER-->
+    <ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
+      <li class="flex-footer width-full padding-5-bottom " >
 
+        <ul class="flex-footer-subcontainer flex-footer-width ">
 
-      <!-- BEGIN OF FOOTER-->
-      <ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
-        <li class="flex-footer width-full padding-5-bottom " >
+          <li class="flex-footer-sub">
+            <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
 
-          <ul class="flex-footer-subcontainer flex-footer-width ">
-            <li class="flex-footer-sub">
-              <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-              </a>
-            </li>
+          <li class="flex-footer-sub">
+            <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
+              <i class="fab fa-linkedin" aria-hidden="true">
+              </i>
+            </a>
+          </li>
 
-            <li class="flex-footer-sub">
-              <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
-                <i class="fab fa-linkedin" aria-hidden="true">
-                </i>
-              </a>
+          <li class="flex-footer-sub ">
+            <a href="https://www.facebook.com/wangzunshi" target="_blank">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
 
-            </li>
+          <li class="flex-footer-sub">
+            <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
+              <i class="far fa-envelope" aria-hidden="true">
+              </i>
+            </a>
+          </li>
 
-            <li class="flex-footer-sub ">
-              <a href="https://www.facebook.com/wangzunshi" target="_blank">
-                <i class="fab fa-facebook" aria-hidden="true"></i>
-              </a>
-            </li>
+        </ul>
 
-            <li class="flex-footer-sub">
-              <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
-                <i class="far fa-envelope" aria-hidden="true">
-                </i>
-              </a>
-            </li>
-          </ul>
+      </li>
 
+      <li class="flex-footer width-full" >
+        <h6> © 2018  zunshi wang </h6>
+      </li>
 
-        </li>
+    </ul>
+    <!-- END OF FOOTER-->
 
-        <li class="flex-footer width-full" >
-          <h6> © 2018  zunshi wang </h6>
-        </li>
-      </ul>
-      <!-- END OF FOOTER-->
+  <!-- JAVASCRIPT  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="//code.jquery.com/jquery-latest.js"></script>
+  <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/scrollTo.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
 
-
-
-
-
-    </div>
-  </body>
-  </html>
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+  <!-- ALL LINK REFERENCES END -->
+</body>
+</html>

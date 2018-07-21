@@ -81,7 +81,7 @@ h6 {
 
 
 #research {
-  background-image: url(/images/background-research2.jpg);
+  background-image: url(../images/background-research2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -90,7 +90,7 @@ h6 {
 }
 
 #architecture {
-  background-image: url(/images/background-arch2.jpg);
+  background-image: url(../images/background-arch2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -98,7 +98,7 @@ h6 {
 }
 
 #brand {
-  background-image: url(/images/background-brand2.jpg);
+  background-image: url(../images/background-brand2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -106,7 +106,7 @@ h6 {
 }
 
 #prototype {
-  background-image: url(/images/background-prototype2.jpg);
+  background-image: url(../images/background-prototype2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -115,7 +115,7 @@ h6 {
 
 
 #conclusion {
-  background-image: url(/images/background-conclusion2.jpg);
+  background-image: url(../images/background-conclusion2.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -425,9 +425,6 @@ h6 {
   width: 60%;
 }
 
-#tool-image{
-  width: 25%;
-}
 
 
 
@@ -587,6 +584,7 @@ h6 {
   color: #1B1818;
   position: initial;
   font-family: 'Fira Sans';
+  letter-spacing: 0.05rem;
 }
 
 
@@ -614,20 +612,180 @@ h6 {
 
 
 
-
-
-
-
-
+#role-image, #tool-image {
+  max-width: 16rem;
+}
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* media query for desktop ends  */
+@media screen and (max-width: 1600px){
+.banner {
+  height: 12rem;
+  position: inherit;
+  z-index: 2;
+}
+
+#tool-text {
+  max-width: 38.4rem;
+}
+}
+@media screen and (max-width: 1240px){
+
+  .flex-persona-subcontainer img{
+    width: 42.8%;
+  }
+
+
+  .flex-role-container {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+
+  .flex-tool-container {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+
+  #tool-text {
+    width: 100%;
+
+
+  }
+
+
+#width-weird {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#tool-width {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 6rem;
+
+}
+
+@media screen and (max-width: 990px){
+.mobile-padding-6-1 {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+
+.mobile-padding-6-2 {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.mobile-padding-6-3 {
+  padding-top: 6rem;
+
+}
+
+.mobile-padding-6-4 {
+  padding-bottom: 6rem;
+}
+
+.mobile-padding-3-1 {
+  padding-top: 3rem;
+}
+
+.mobile-padding-3-2 {
+  padding-bottom: 3rem;
+}
+
+.mobile-padding-3-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.mobile-padding-0-1 {
+  padding-top: 0rem;
+}
+
+.mobile-padding-0-2 {
+  padding-bottom: 0rem;
+}
 
 
 
+.flex-persona-sub:nth-of-type(4) {
+
+padding-top: 3rem;
+}
+.flex-realm-content2:nth-of-type(1) {
+  padding-bottom: 3rem;
+
+
+}
+
+.flex-realm-content3:nth-of-type(1) {
+  order: 2;
+
+}
+.flex-realm-content3:nth-of-type(2) {
+  order: 1;
+  padding-bottom: 3rem;
+
+}
+
+}
 @media screen and (max-width: 575px){
+
+  #role-text, #role-image {
+    width: 100%;
+  }
+
+  #research {
+    background-image: url(../images/background-research2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: initial;
+    z-index: 1;
+  }
+
+  #architecture {
+    background-image: url(../images/background-arch2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: initial;
+  }
+
+  #brand {
+    background-image: url(../images/background-brand2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: initial;
+  }
+
+  #prototype {
+    background-image: url(../images/background-prototype2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: initial;
+  }
+
+
+  #conclusion {
+    background-image: url(../images/background-conclusion2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: initial;
+  }
+
+  .banner {
+    height: 8rem;
+    position: inherit;
+    z-index: 2;
+  }
   .quick-access-container {
     display: none;
   }
@@ -673,10 +831,7 @@ h6 {
 }
 
 
-.flex-designprocess-subcontainer {
-  padding-top: 5rem;
 
-}
 
 #width-weird {
   width: 100%;
@@ -684,7 +839,6 @@ h6 {
 
 #role-image, #tool-image {
   width: 143px;
-  padding-bottom: 2rem;
 }
 
 .width-8-15{
@@ -697,9 +851,7 @@ h6 {
   width: 100%;
 }
 
-#role-text h2 {
-  padding-bottom: 5rem;
-}
+
 .intro-headline2 h2 {
   font-size: 1.6rem;
   width: 100%;
@@ -767,30 +919,15 @@ h2 {
 
 
 
-#logo-ca img {
-  padding-bottom: 5rem;
-}
 
-#mobile-keyfindings {
-  padding-top: 0rem;
-  padding-bottom: 2rem;
-}
 
-#mobile-research {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
+
 .image-hidden {
   display: none;
 }
 
-.padding-10-top, {
-  padding-top: 2rem;
-}
 
-.padding-10-bottom {
-  padding-bottom: 2rem;
-}
+
 .brand-section h4 {
   margin-bottom: 1rem;
   text-align: center;
@@ -803,46 +940,14 @@ h5 {
   font-size: 1.8rem;
 }
 
-.flex-persona-subcontainer img{
-  width: 42.8%;
-}
-
-.padding-10 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-#persona-right {
-  padding-top: 6rem;
-}
 
 
-.flex-persona-sub:nth-of-type(4) {
-
-padding-top: 3rem;
-}
-.flex-realm-content2:nth-of-type(1) {
-  padding-bottom: 3rem;
-
-
-}
 
 .flex-realm-content h6 {
   font-size: initial;
 }
 
-.flex-realm-content {
-  padding-bottom: 0rem;
-}
 
-.flex-realm-content3:nth-of-type(1) {
-  order: 2;
-
-}
-.flex-realm-content3:nth-of-type(2) {
-  order: 1;
-  padding-bottom: 3rem;
-
-}
 
 .uni-button {
   text-align: center;
@@ -852,10 +957,6 @@ padding-top: 3rem;
   padding-top: 0rem;
 }
 
-#brand-section-h4 {
-  padding-top: 0rem;
-
-}
 
 .width-3-15 {
   width: 100%;
@@ -869,9 +970,9 @@ padding-top: 3rem;
   padding-top: 0rem;
 }
 
-.padding-10-top {
-  padding-top: 6rem;
-}
+
+
+
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */

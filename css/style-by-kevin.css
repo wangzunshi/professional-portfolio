@@ -93,9 +93,9 @@ h4 {
 
 
 h5 {
-  font-family: Overlock;
+
   font-size: 2.2rem;
-  font-weight: 600;
+  font-weight: 400;
   margin: 0;
 
 }
@@ -276,14 +276,17 @@ li {
   width: 26.7%;
 }
 
+.width-6-15 {
+  width: 40%;
+}
 .width-8-15 {
-  width: 53.3%;
+  width: 53%;
 }
 .width-10-15 {
-  width: 66.7%;
+  width: 66%;
 }
 .width-11-15{
-  width: 73.3%;
+  width: 73%;
 }
 
 /* 5/15 */
@@ -510,7 +513,7 @@ li {
 }
 
 .flex-footer-width {
-  width: 18%;
+  width: 21.6rem;
   margin: 0 auto;
 }
 
@@ -551,7 +554,7 @@ li {
 
 #content-start {
   background-attachment: fixed;
-  background-image: url(/images/logo-background.png);
+  background-image: url(../images/logo-background.png);
   background-position: 50% 40%;
   background-repeat: no-repeat;
 }
@@ -588,6 +591,13 @@ li {
   text-align: center;
 }
 
+/*
+#mains {
+  max-width: 174.9rem;
+  margin: 0 auto;
+}
+*/
+
 
 #mains h1 {
   font-weight: 200;
@@ -605,10 +615,27 @@ li {
   text-align: left;
 
 }
+
+
+#mains-left {
+  width: 47.5rem;
+}
+
+#contact-footer {
+  max-width: 47.5rem;
+}
+
+#max-width-contact p {
+  max-width: 65.2rem;
+  margin: 0 auto;
+}
+
+
 .cover-image img{
   width: 100%;
   position: relative;
   bottom: 12rem;
+  max-width: 83.2rem;
 }
 
 #linetwo {
@@ -731,7 +758,7 @@ li {
 
 /* introduction */
 .introduction-backgroundimage {
-  background-image: url(/images/bio-backgroundlogo.png);
+  background-image: url(../images/bio-backgroundlogo.png);
   background-repeat: no-repeat;
   background-position: 50% 60%;
   background-size: 65%;
@@ -826,17 +853,20 @@ li {
 }
 
 #realization {
-  text-align: center;
+  text-align: left;
 }
 .flex-trans h5 {
   font-size: 3rem;
   padding-bottom: 2rem;
+  font-family: inherit;
+  text-align: left;
+  font-weight: 300;
 }
 
 /* growth */
 
 #growth {
-  text-align: center;
+  text-align: left;
 }
 #growth img {
   max-height: 35rem;
@@ -845,7 +875,7 @@ li {
 /* reality */
 
 #reality {
-  text-align: center;
+  text-align: left;
 }
 #reality img {
   width: 75%;
@@ -924,7 +954,7 @@ li {
 }
 
 .contactpage-background {
-  background-image: url(/images/bio-backgroundlogo.png);
+  background-image: url(../images/bio-backgroundlogo.png);
   background-repeat: no-repeat;
   background-position: 47% 50%;
   background-size: 50%;
@@ -1068,14 +1098,23 @@ input:focus, textarea:focus{
   display: none;
 
 }
+
+.desktop-hidden-1280 {
+  display: none;
+
+}
 .mobile-hidden {
+  display: block;
+}
+
+.mobile-hidden-1280 {
   display: block;
 }
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* media query for desktop ends  */
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1600px){
 .padding-side-left {
   padding-left: 12rem;
 
@@ -1086,6 +1125,7 @@ input:focus, textarea:focus{
 }
 
  }
+
 @media screen and (max-width: 1280px){
 .padding-side-left {
   padding-left: 4rem;
@@ -1096,14 +1136,69 @@ input:focus, textarea:focus{
 
 }
 
+.cover-image img {
+  bottom: 14rem;
+}
+
+.flex-display:nth-of-type(1) {
+  order: 2;
+  position: relative;
+  bottom: 7em;
+}
+
+.flex-display:nth-of-type(2) { order: 1; }
+
+
+
+
+ #mains li{
+   width: 100%;
  }
+
+ #mains h1, #mains p, #mains h6 {
+   text-align: center;
+ }
+ #casestudy {
+   text-align: center;
+ }
+
+ #mains p {
+   padding-top: 1.5rem;
+   padding-bottom: 1.5rem;
+ }
+
+ #featured-project h2{
+   padding: 0;
+   text-align: center;
+   padding-bottom: 10rem;
+   padding-top: 10rem;
+ }
+
+ .desktop-hidden-1280 {
+   display: block;
+ }
+
+ .mobile-hidden-1280 {
+   display: none;
+ }
+
+}
 /* 575px */
 
 @media screen and (max-width: 990px){
+
+
+  .width-logo {
+    width: 10%;
+    width: 120px;
+    height: 90px;
+  }
+
   .desktop-hidden {
     display: block;
 
   }
+
   .mobile-hidden {
     display: none;
   }
@@ -1120,34 +1215,33 @@ input:focus, textarea:focus{
   }
 
   .flex-footer-width {
-    width: 70%;
+
     margin: 0 auto;
   }
 
 
+#contact-footer {
+  max-width: 47.5rem;
+}
 
-  .padding-10 {
 
-  }
 
 
   .padding-side-left {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .padding-side-right {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
 #growth {
   text-align: center;
 }
 
- h1 {
-   font-size: 3.6rem;
- }
+
  h2 {
 
  }
@@ -1177,11 +1271,9 @@ input:focus, textarea:focus{
 /* navigation  */
 
 
-.width-logo {
-  width: 17.9%;
-}
+
 .width-nav-text {
-  width: 82.1%;
+  width: 28.1rem;
 }
 
 .flex-nav-sub {
@@ -1189,7 +1281,7 @@ input:focus, textarea:focus{
 }
 
 #nav-text {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 
@@ -1206,40 +1298,14 @@ input:focus, textarea:focus{
   padding-bottom: 5rem;
 }
 
-#featured-project h2{
-  padding: 0;
-  text-align: center;
-  padding-bottom: 14rem;
-}
 
 #content-start {
   background-size: 100%;
 }
 
-.cover-image img {
-  bottom: 14rem;
-}
-
-.flex-display:nth-of-type(1) {
-  order: 2;
-  position: relative;
-  bottom: 7em;
-}
-
-.flex-display:nth-of-type(2) { order: 1; }
 
 
-#mains h1, #mains p, #mains h6 {
-  text-align: center;
-}
-#casestudy {
-  text-align: center;
-}
 
-#mains p {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 
 
 
@@ -1414,3 +1480,64 @@ input:focus, textarea:focus{
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* media query for smartphone ends  */
+@media screen and (max-width: 575px){
+
+  .padding-side-left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .padding-side-right {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  .width-logo {
+    width: 17.9%;
+  }
+
+  #nav-text {
+    padding-top: 3.5rem;
+  }
+
+  #content-start {
+    background-attachment: initial;
+    background-image: url(../images/logo-background.png);
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+  }
+  #contact-footer {
+    width: 100%;
+  }
+  .flex-contact-sub {
+    width: 100%;
+  }
+
+  .introduction-backgroundimage {
+    background-image: url(../images/bio-backgroundlogo.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 65%;
+    background-attachment: initial;
+  }
+
+  .contactpage-background {
+    background-image: url(../images/bio-backgroundlogo.png);
+    background-repeat: no-repeat;
+    background-position: 47% 10%;
+    background-size: 50%;
+    background-attachment: initial;
+  }
+}
+
+
+
+@media screen and (max-width: 380px){
+
+  .flex-nav-sub {
+    padding-left: 2rem;
+  }
