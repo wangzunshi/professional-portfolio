@@ -27,7 +27,9 @@ h6 {
 }
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 
-
+.flex-persona-sub img {
+  padding-bottom: 2rem;
+}
 /* BUTTON CASESTUDY STYLING BEGINS */
 
 
@@ -731,6 +733,13 @@ padding-top: 3rem;
   padding-bottom: 3rem;
 
 }
+
+
+.mobile-hidden {
+  display: none;
+}
+
+
 
 }
 @media screen and (max-width: 575px){
