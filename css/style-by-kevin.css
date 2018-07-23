@@ -383,6 +383,13 @@ li {
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
 }
 
+.flex-nav-container p:hover, .flex-nav-container p:active {
+  opacity: 1;
+}
+
+.flex-nav-container p{
+  opacity: 0.8;
+}
 
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
