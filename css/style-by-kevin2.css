@@ -159,7 +159,7 @@ h6 {
 #realm-intro1 h6{
   padding-top: 2rem;
   color: white;
-  font-size: 9.6rem;
+  font-size: 8.6rem;
   font-weight: 400;
   font-family: Filson-soft;
 }
@@ -172,6 +172,7 @@ h6 {
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 2rem;
 
 }
 
