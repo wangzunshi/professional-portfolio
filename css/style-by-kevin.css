@@ -1534,10 +1534,16 @@ input:focus, textarea:focus{
   }
 }
 
+@media screen and (max-width: 383px){
+.smallest-phone-hidden {
+  display: none;
+}
+.width-nav-text {
+  width: auto;
+}
 
+.flex-nav-sub {
+  padding-left: 2rem;
+}
 
-@media screen and (max-width: 380px){
-
-  .flex-nav-sub {
-    padding-left: 2rem;
-  }
+}
