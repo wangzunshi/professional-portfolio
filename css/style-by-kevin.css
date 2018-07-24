@@ -50,7 +50,7 @@ html {
 }
 
 body {
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-size: 1.6rem;
   margin: 0 auto;
 }
@@ -76,7 +76,7 @@ h2 {
 
 }
 h3 {
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-size: 3.6rem;
   font-weight: 200;
   margin: 0;
@@ -101,7 +101,7 @@ h5 {
 }
 
 h6 {
-  font-family: Overlock;
+  font-family: Overlock, sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   margin: 0;
@@ -110,7 +110,7 @@ h6 {
 }
 
 p {
-  font-family: Overlock;
+  font-family: Overlock, sans-serif;
   font-weight: 400;
   font-size: 2rem;
   line-height: 170%;
@@ -475,7 +475,7 @@ li {
   border-color: #454545;
   border-radius: 0.5rem;
   display: inline-block;
-  font-family: Overlock;
+  font-family: Overlock, sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
@@ -727,7 +727,7 @@ li {
   font-size: 2.2rem;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   padding-bottom: 2rem;
   color: #1B1818;
 }
@@ -986,7 +986,7 @@ li {
   border-style: solid;
   border-width: 0.1rem;
   display: block;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-size: 2.2rem;
   font-weight: 100;
   margin: 0 auto;
@@ -1012,7 +1012,7 @@ input:focus, textarea:focus{
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: Overlock;
+  font-family: Overlock, sans-serif;
   font-weight: 500;
   font-size: 1.6rem;
   margin: 0 auto;

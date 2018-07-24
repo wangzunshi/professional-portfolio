@@ -141,7 +141,7 @@ h6 {
   text-align: center;
   color: #00C39D;
   text-transform: uppercase;
-  font-family: Overlock;
+  font-family: Overlock, sans-serif;
 }
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
@@ -161,16 +161,16 @@ h6 {
   color: white;
   font-size: 8.6rem;
   font-weight: 400;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
 }
 
 #realm-intro1 h2 {
   color: white;
   width: 100%;
   margin: 0 auto;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-weight: 300;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   text-align: center;
   padding-top: 2rem;
 
@@ -179,7 +179,7 @@ h6 {
 #realm-intro2 h2 {
   width: 100%;
   margin: 0 auto;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   text-align: center;
@@ -267,7 +267,7 @@ h6 {
   text-align: center;
   width: 100%;
   color: #1B1818;
-  font-family: Filson-soft;
+  font-family: Filson-soft, sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 150%;
@@ -586,7 +586,7 @@ h6 {
   text-align: left;
   color: #1B1818;
   position: initial;
-  font-family: 'Fira Sans';
+  font-family: 'Fira Sans', sans-serif;
   letter-spacing: 0.05rem;
 }
 
