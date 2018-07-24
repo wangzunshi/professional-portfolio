@@ -255,8 +255,8 @@ li {
   height: 90px;
 }
 .width-nav-text {
-  width: 90%;
-  width: 327px;
+
+  width: 330px;
 }
 
 .width-designprocess {
@@ -354,6 +354,8 @@ li {
 .imagehover img:hover, .imagehover img:active {
   opacity: 0.5;
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
+  transition: all 0.4s ease 0s;
+
 }
 
 
@@ -366,15 +368,14 @@ li {
   color: white;
 }
 
-
-.content-right p:hover, .content-right p:active, .uni-button a:hover, .uni-button a:active, .uni-button a:hover, .uni-button a:active  {
+.uni-button a:hover, .uni-button a:active, .uni-button a:hover, .uni-button a:active  {
 
   opacity: 0.5;
 
 
 }
 
-.quick-access p:hover, .quick-access p:active ,.left-text h5:hover, .left-text h5:active, .right-text h5:hover, .right-text h5:active, .section-text h5:hover, .section-text h5:active, .button-otherdesign a:hover, .button-otherdesign a:active, .submit-button-wrapper a:hover, .submit-button-wrapper a:active{
+.quick-access p:hover, .quick-access p:active ,.left-text h5:hover, .left-text h5:active, .right-text h5:hover, .right-text h5:active, .section-text h5:hover, .section-text h5:active, .button-otherdesign a:hover, .button-otherdesign a:active{
   opacity: 0.5;
 }
 
@@ -383,15 +384,69 @@ li {
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
 }
 
+
+.flex-nav-container p {
+  color: #696969 ;
+}
 .flex-nav-container p:hover, .flex-nav-container p:active {
+  opacity: 1;
+  color: #000000;
+  font-weight: 400;
+  transition: all 0.5s ease 0s;
+}
+
+
+#casestudy a:hover, #casestudy a:active {
+  color: #ffffff ;
+  background: #1B76FF;
+  transition: all 0.3s ease 0s;
+  border-color: #1B76FF;
   opacity: 1;
 }
 
-.flex-nav-container p{
-  opacity: 0.8;
+#contact-footer a:hover, #contact-footer a:active  {
+  color: #ffffff ;
+  background: #454545;
+  transition: all 0.3s ease 0s;
+  border-color: #454545;
+  opacity: 1;
 }
 
+.button-prototype a:hover, .button-prototype a:active {
+  background-color: #FFAF1B;
+  opacity: 1;
+  border-color: #FFAF1B;
+  transition: all 0.4s ease 0s;
 
+}
+
+#button-otherdesign a:hover, #button-otherdesign a:active {
+  border-color: #454545;
+  transition: all 0.4s ease 0s;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+.flex-footer-sub a:hover, .flex-footer-sub a:active {
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+}
+
+.flex-realm-content h6:hover, .flex-real-content h6:active {
+  color: #FFAF1B;
+  transition: all 0.4s ease 0s;
+
+}
+
+.hover-image img:hover {
+  opacity: 0.5;
+  transition: all 0.4s ease 0s;
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
+
+
+}
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 
 /* NAVIGATION BAR BEGINS */
@@ -691,7 +746,7 @@ li {
 }
 
 .flex-designprocess{
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 200;
   line-height: 180%;
   list-style-type: none;
@@ -700,6 +755,10 @@ li {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.li-padding {
+  padding-bottom: 1rem;
 }
 
 .flex-designprocess-subcontainer{
@@ -1007,8 +1066,11 @@ input:focus, textarea:focus{
 
 .submit-button {
   background-color: #454545;
-  border-style: none;
   border-radius: 0.5rem;
+  border-width: 0.13rem;
+  border-style: solid;
+  border-color: #454545;
+
   color: white;
   cursor: pointer;
   display: inline-block;
@@ -1018,8 +1080,20 @@ input:focus, textarea:focus{
   margin: 0 auto;
   padding: 0.7rem 4.2rem 0.7rem 4.2rem;
   text-align: center;
+
+
+
 }
 
+input:hover, input:active {
+
+  border-color: #454545;
+  transition: all 0.5s ease 0s;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+
+}
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
@@ -1129,6 +1203,10 @@ input:focus, textarea:focus{
 .padding-side-right  {
   padding-right: 12rem;
 
+}
+
+.li-padding {
+  padding-bottom: 0rem;
 }
 
  }
