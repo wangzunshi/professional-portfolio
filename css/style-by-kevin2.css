@@ -374,10 +374,49 @@ h6 {
 }
 
 
+.flex-surveyresult{
+  list-style-type: none;
+  margin: 0 auto ;
+  border-style: solid;
+  border-width: 0.13rem;
+  border-color: #1B76FF;
+  border-radius: 1rem;
+  background-color: white;
+  padding: 1rem;
+  max-width: 250px;
+  min-width: 250px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
 
 
 
+}
 
+.flex-surveyresult-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.survey-font {
+  font-family: 'Fira-Sans', sans-serif;
+  font-size: 8rem;
+  font-style: italic;
+  color: #1B76FF;
+  text-align: center;
+}
+
+.survey-text {
+  color: #284E5E;
+  font-family: 'Fira-Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+
+
+
+}
 
 .brand-section h6 {
   padding-top: 2rem;
@@ -577,6 +616,7 @@ h6 {
   text-transform: inherit;
   padding-bottom: 2rem;
   position: initial;
+  line-height: 190%;
 
 }
 
@@ -672,6 +712,15 @@ h6 {
 
 }
 
+
+.max-image-size img {
+  text-align: center;
+}
+
+.max-image-size img {
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 990px){
 .mobile-padding-6-1 {
   padding-top: 6rem;
@@ -744,6 +793,12 @@ padding-top: 3rem;
 
 }
 @media screen and (max-width: 575px){
+
+  .flex-surveyresult {
+    margin: 0 auto ;
+    margin-bottom: 4rem;
+
+  }
 
   #role-text, #role-image {
     width: 100%;
