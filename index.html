@@ -19,20 +19,28 @@
   <!-- link rel defines the relationship between the current index with which ever file you are connecting with.  -->
 
   <!-- Typeface STARTED  -->
-  <link href="https://fonts.googleapis.com/css?family=Overlock:400,400i,700,700i,900,900i" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+
+  <link href="css/MyFontsWebfontsKit.css" type="text/css" rel="stylesheet" >
+
 
   <!-- CSS  -->
+  <link href="css/grid.css" type="text/css" rel="stylesheet" >
   <link href="css/all.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
-  <link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
+  <!-- <link href="css/featherlight.css" type="text/css" rel="stylesheet" > -->
+  <!-- <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" > -->
+  <link href="css/hover-min.css" type="text/css" rel="stylesheet" >
+  <link href="css/animate.css" type="text/css" rel="stylesheet" >
+  <link href="css/style-by-kevin-new.css" type="text/css" rel="stylesheet" >
+
+
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
 
   <!-- FAVI ICON -->
-  <link rel="icon" type="image/svg" href="./images/FAVI.png">
+  <link rel="icon" type="image/png" href="images/FAVI.png">
 
   <!-- INITIATE FEATHERLIGHT GALLERY -->
   <script>
@@ -56,248 +64,278 @@
   ga('create', 'UA-104503936-1', 'auto');
   ga('send', 'pageview');
 
+
+
+
   </script>
+
+
   <!-- GOOGLE ANALYTICS ENDS -->
   <title>Kevin Wang - UX Designer</title>
 </head>
 
 
 
-<body>
+<body >
+
+  <!-- <div class="container index"> -->
+
+
   <!--BEGIN OF NAVIGATION BAR -->
-  <ul class=" flex-nav-container banner banner-transparent width-full padding-side-left padding-side-right" role="banner">
-    <li class="flex-nav width-logo padding-2-up">
-      <a class="logo" href="index.html">
-        <!-- <img id="logo" src="./images/NAV-LOGO.svg"> -->
-        <img id="logo" src="./images/NAV-LOGO.png">
-
-      </a>
-    </li>
-
-    <li class="flex-nav width-nav-text " id="nav-text">
-      <ul class="flex-nav-subcontainer">
-        <li class="flex-nav-sub smallest-phone-hidden">
-          <a class="nav-text" href="realmpage.html" >
-            <p>Projects</p>
-          </a>
-        </li>
-
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="biopage.html"> <p>About</p>
-          </a>
-        </li>
-
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="contactpage.html">
-            <!-- <p> <b>Contact</b> </p> </a> -->
-            <p> Contact</p> </a>
-
-          </li>
-        </ul>
+<div class="container mobile-lg-back">
+  <nav class="fr-15 navbar animated fadeIn slower delay-1s">
+    <ul class="fr-15-middle flex-nav-subcontainer">
+      <li class="flex-nav-sub">
+        <a class="orange" href="realmpage.html" >
+          Projects
+        </a>
       </li>
-  </ul>
+
+      <li class="flex-nav-sub">
+        <a class="orange" href="biopage.html"> About
+        </a>
+      </li>
+
+      <li class="flex-nav-sub">
+        <a class="orange" href="contactpage.html">
+         Contact</a>
+        </li>
+      </ul>
+  </nav>
+
+  <section class="fr-3-12 hero" >
+    <div class="flex-hero fr-3-12-right hero-text animated fadeIn slowerer delay-1s">
+      <!-- desktop -->
+      <h1 class="hero-h1 mobile-hidden desk-show">Hello! I'm Kevin,</h1>
+      <!-- mobile -->
+      <h1 class="hero-h1 desk-hidden mobile-show">Hello! <br> I'm Kevin,</h1>
+
+<!-- desktop -->
+      <h2 class="hero-h2 PaulGrotesk-Light mobile-hidden desk-show">an architect-turned-UX Designer in &nbsp Montreal</h2>
+<!-- mobile -->
+      <h2 class="hero-h2 PaulGrotesk-Light desk-hidden mobile-show">an architect-turned-UX Designer in Montreal</h2>
+
+
+<!-- desktop -->
+      <h3 class="hero-h3 PaulGrotesk-Light mobile-hidden desk-show"> Design is to enable efficient, enjoyable communication. <br>
+          I optimize processes, providing simple, delightful solutions.
+      </h3>
+<!-- mobile -->
+      <h3 class="hero-h3 PaulGrotesk-Light desk-hidden mobile-show"> Design is to enable efficient, enjoyable communication.
+          I optimize processes, and provide  delightful solutions.
+      </h3>
+
+    </div>
+  </section>
+
+  <div class="fr-15 animated fadeIn slower delay-1s">
+    <h2 class="fr-15-middle margin-bottom-4">Featured Projects</h2>
+  </div>
+</div>
+
+
+
     <!--END OF NAVIGATION BAR -->
 
+    <!-- BEGINNING OF HERO  -->
 
-    <ul class="flex-heroindex-container background-pink padding-10-top " id="content-start">
-      <!-- BEGIN OF HERO IMAGE -->
-      <li class="flex-heroindex width-full padding-side-left padding-side-right" id="box-text">
-        <h1>Hello! I'm Kevin, an architect-turned-UX Designer from Montreal.</h1>
-        <div class="padding-2-up">
-          <p>Design is about enabling efficient and enjoyable mutual communication.</p>
-          <p>I optimize processes, and provide simple, efficient and delightful solutions.</p>
-        </div>
-      </li>
 
-      <li class="flex-heroindex width-full padding-side-left padding-side-right" id="featured-project">
-        <div class="mobile-hidden-1280">
-          <h2>FEATURED PROJECT   &nbsp >></h2>
-        </div>
-        <div class="desktop-hidden-1280">
-          <h2>FEATURED PROJECT   &nbsp </h2>
-        </div>
-      </li>
-      <!-- END OF HERO IMAGE -->
+    <!-- END OF HERO  -->
 
-      <!-- BEGIN OF PROJECT DISPLAY -->
-      <li class="flex-heroindex width-full">
-        <ul class="flex-display-container background-white padding-5-up padding-5-bottom  " id="mains">
+    <!-- BEGIN OF PROJECT DISPLAY -->
 
-          <li class="flex-display padding-side-left width-third " >
-            <h1>Realm</h1>
-            <p>A cloud based SaaS application that empowers users to create, manage, and collaborate. </p>
+<div class="bg-paper-dark container animated fadeIn slower delay-1s">
+  <section class="fr-5-10 display grid-rl">
 
-            <h6 >Tag: UX, UI, Branding</h6>
-            <div id="linetwo">
-              <h6 >Personal Case Study | 2018</h6>
-            </div>
+    <div class="fr-5-10-left display-text m-t-10" >
+      <h1 class="display-h1">Realm</h1>
+      <p class="display-p">A cloud based SaaS application that empowers users to create, manage, and collaborate. </p>
 
-            <div class="uni-button" id="casestudy">
-              <a href="realmpage.html">
-                View Case Study
-              </a>
-            </div>
-          </li>
+      <h6 class="display-h6">Tag: UX, UI, Branding</h6>
 
-          <li class="flex-display  padding-side-right width-10-15 " id="mains-right">
-            <div class="cover-image">
-              <a href="realmpage.html">
-                <img src="images/realm-coverphoto.png">
-              </a>
-            </div>
-          </li>
-        </ul>
-      </li>
-      <!--END OF PROJECT DISPLAY -->
+        <h6 class="display-h6" id="display-h6-2">Personal Case Study | 2018</h6>
 
-      <!--BEGIN OF TOOLS -->
-      <li class="flex-heroindex width-full padding-side-left padding-side-right padding-10" id="tools">
-        <h3>TOOLS I USE</h3>
-        <p>  <b>Figma | PhotoShop | Illustrator | InDesign | Balsamiq | InVision</b>  </p>
-        <p> <b>Html & CSS | JavaScript | Git</b>  </p>
-        <p>AutoCAD | Rhino | 3DsMax | Grasshopper | ArchiCAD</p>
-      </li>
 
-      <!--END OF TOOLS -->
+        <a class="display-a hvr-icon-forward yellow" href="realmpage.html">
+          View Case Study
+          <i class="fas fa-caret-right hvr-icon  "></i>
+        </a>
+    </div>
 
-    </ul>
+
+
+    <div class="fr-5-10-right display-image">
+
+        <a href="realmpage.html">
+          <img class="index-realm-img" src="images/realm-coverphoto.png">
+        </a>
+    </div>
+
+  </section>
+</div>
+
+
+    <!--END OF PROJECT DISPLAY -->
+
+
+<div class="container">
+
 
 
     <!--BEGIN OF DESIGN PROCESS -->
-    <ul class="flex-designprocess-container padding-10 width-full padding-side-left padding-side-right">
 
-      <li class="flex-designprocess width-full"><h3>DESIGN PROCESS</h3></li>
+    <section class="fr-15 fr-15-2rows">
+      <h2 class="fr-15-middle text-align-center margin-bottom-4">My Design Process</h2>
+      <img class="fr-15-middle-2 margin-bottom-15" src="new-images/process.png" alt="">
+    </section>
 
-      <li class="flex-designprocess width-designprocess mobile-designprocess-padding">
-        <ul class="flex-designprocess-subcontainer ">
-          <li class="flex-designprocess-sub"> <h6>Research</h6> </li>
-          <li class="flex-designprocess-sub li-padding">User Interviews</li>
-          <li class="flex-designprocess-sub li-padding">User Surveys</li>
-          <li class="flex-designprocess-sub li-padding">User Personas</li>
-          <li class="flex-designprocess-sub li-padding">Competitive Analysis</li>
-        </ul>
-      </li>
-
-      <li class="flex-designprocess width-1-15 mobile-hidden">
-        <img src="/images/sign.svg" alt="">
-      </li>
-
-      <li class="flex-designprocess width-designprocess mobile-designprocess-padding">
-        <ul class="flex-designprocess-subcontainer">
-          <li class="flex-designprocess-sub">
-            <h6>Architecture</h6>
-          </li>
-
-          <li class="flex-designprocess-sub li-padding">User Stories/Flows</li>
-          <li class="flex-designprocess-sub li-padding">Sitemap</li>
-          <li class="flex-designprocess-sub li-padding">Wireframes</li>
-          <li class="flex-designprocess-sub li-padding">User Testing</li>
-          <li class="flex-designprocess-sub li-padding">Refinements</li>
-        </ul>
-      </li>
-
-      <li class="flex-designprocess width-1-15 mobile-hidden">
-        <img src="/images/sign.png" alt="">
-      </li>
-
-      <li class="flex-designprocess width-designprocess">
-        <ul class="flex-designprocess-subcontainer">
-          <li class="flex-designprocess-sub">
-            <h6>Design</h6>
-          </li>
-
-          <li class="flex-designprocess-sub li-padding">Branding Identity </li>
-          <li class="flex-designprocess-sub li-padding">Style Guide</li>
-          <li class="flex-designprocess-sub li-padding">Basic front-end</li>
-          <li class="flex-designprocess-sub li-padding">Prototyping</li>
-          <li class="flex-designprocess-sub li-padding">Critical Analysis</li>
-        </ul>
-      </li>
-
-    </ul>
     <!--END OF DESIGN PROCESS -->
 
+      <!--BEGIN OF TOOLS -->
+      <section class="fr-15 fr-15-2rows">
+        <h2 class="fr-15-middle text-align-center margin-bottom-4">My Toolskit</h2>
+        <img class="fr-15-middle-2 margin-bottom-15" src="new-images/toolskit.svg" alt="">
+      </section>
+
+
+      <!--END OF TOOLS -->
+
+
+
+
+      <section data-featherlight-gallery data-featherlight-filter="a"> </section>
+
+</div>
 
     <!-- BEGIN OF CONTACT-->
-    <ul class="flex-contact-container background-gray padding-10 " id="contact-template">
 
-      <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right" id="max-width-contact">
-        <h3>Let's chat!</h3>
-        <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
-      </li>
+<div class="container bg-purple">
 
-      <li class="flex-contact width-full">
-        <ul class="flex-contact-subcontainer" id="contact-footer">
 
-          <li class="flex-contact-sub uni-button padding-2-bottom ">
-            <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
-              Resume
-            </a>
-          </li>
 
-          <li class="flex-contact-sub uni-button padding-2-bottom">
-            <section data-featherlight-gallery data-featherlight-filter="a">
-              <a href="Additional Files/qr codes.png">
-                QR Codes
+    <section class="fr-7-8 contact">
+      <div class="fr-7-8-left">
+        <h3 class="contact-h3">Let's connect!</h3>
+
+      </div>
+
+      <!-- desktop -->
+      <div class="fr-7-8-right mobile-hidden desk-show">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
+            QR Codes
+          </a>
+ with Messenger or Wechat, <br>
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also, <br>
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
+
+      <!-- mobile -->
+      <div class="fr-7-8-right mobile-show desk-hidden">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
+            QR Codes
+          </a>
+ with Messenger or Wechat,
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also,
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
+
+
+
+</section>
+
+</div>
+        <!-- END OF CONTACT-->
+<hr class="line">
+
+<div class="container bg-purple">
+
+      <!-- BEGIN OF FOOTER-->
+
+
+      <section class="fr-7-4-4 footer">
+        <div class="fr-7-4-4-left">
+          <h3 class="footer-h3">Thanks for visiting!</h3>
+
+        </div>
+
+        <div class="fr-7-4-4-middle">
+          <ul class="flex-footer-subcontainer flex-footer-width ">
+
+            <li class="flex-footer-sub">
+              <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
-            </section>
-          </li>
+            </li>
 
-        </ul>
-      </li>
+            <li class="flex-footer-sub">
+              <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true">
+                </i>
+              </a>
+            </li>
 
-    </ul>
-    <!-- END OF CONTACT-->
+            <li class="flex-footer-sub ">
+              <a href="https://www.facebook.com/wangzunshi" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="flex-footer-sub">
+              <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
+                <i class="far fa-envelope" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="fr-7-4-4-right">
+          <h6 class="footer-h6"> © 2018  zunshi wang </h6>
 
 
-    <!-- BEGIN OF FOOTER-->
-    <ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
-      <li class="flex-footer width-full padding-5-bottom " >
+        </div>
+      </section>
 
-        <ul class="flex-footer-subcontainer flex-footer-width ">
+      <!-- END OF FOOTER-->
 
-          <li class="flex-footer-sub">
-            <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-              <i class="fab fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
 
-          <li class="flex-footer-sub">
-            <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
-              <i class="fab fa-linkedin" aria-hidden="true">
-              </i>
-            </a>
-          </li>
+</div>
 
-          <li class="flex-footer-sub ">
-            <a href="https://www.facebook.com/wangzunshi" target="_blank">
-              <i class="fab fa-facebook" aria-hidden="true"></i>
-            </a>
-          </li>
 
-          <li class="flex-footer-sub">
-            <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
-              <i class="far fa-envelope" aria-hidden="true">
-              </i>
-            </a>
-          </li>
 
-        </ul>
 
-      </li>
 
-      <li class="flex-footer width-full" >
-        <h6> © 2018  zunshi wang </h6>
-      </li>
 
-    </ul>
-    <!-- END OF FOOTER-->
+
+
+
 
   <!-- JAVASCRIPT  -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-  <script src="//code.jquery.com/jquery-latest.js"></script>
-  <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-  <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+  <!-- <script src="//code.jquery.com/jquery-latest.js"></script> -->
+  <!-- <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script> -->
+  <!-- <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script> -->
   <script src="js/scrollTo.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -305,6 +343,10 @@
   <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
   <!-- ALL LINK REFERENCES END -->
+
 </body>
 </html>

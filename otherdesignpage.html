@@ -23,12 +23,18 @@
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <!-- CSS  -->
+  <link href="css/MyFontsWebfontsKit.css" type="text/css" rel="stylesheet" >
+  <link href="css/grid.css" type="text/css" rel="stylesheet" >
+  <link href="css/hover-min.css" rel="stylesheet">
   <link href="css/all.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
+  <!-- <link href="css/featherlight.css" type="text/css" rel="stylesheet" > -->
+  <!-- <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" > -->
   <link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
+  <link href="css/style-by-kevin-new.css" type="text/css" rel="stylesheet" >
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
 
   <!-- FAVI ICON -->
@@ -65,48 +71,75 @@
 
 <body>
   <!--BEGIN OF NAVIGATION BAR -->
-  <ul class=" flex-nav-container banner banner-transparent width-full padding-side-left padding-side-right" role="banner">
-    <li class="flex-nav width-logo padding-2-up">
-      <a class="logo" href="index.html">
-        <!-- <img id="logo" src="./images/NAV-LOGO.svg"> -->
-        <img id="logo" src="./images/NAV-LOGO.png">
+  <div class="container ">
+    <nav class="fr-2-13 navbar">
+
+      <a class=" fr-2-13-left logo" href="index.html">
+        <img id="logo" src="./images/NAV-LOGO.svg">
       </a>
-    </li>
 
-    <li class="flex-nav width-nav-text " id="nav-text">
-      <ul class="flex-nav-subcontainer">
-        <li class="flex-nav-sub smallest-phone-hidden">
-          <a class="nav-text" href="realmpage.html" >
-            <p>Projects</p>
+      <ul class="fr-2-13-right flex-nav-subcontainer">
+        <li class="flex-nav-sub">
+          <a class="black" href="realmpage.html" >
+            Projects
           </a>
         </li>
 
         <li class="flex-nav-sub">
-          <a class="nav-text" href="biopage.html"> <p>About</p>
+          <a class="black" href="biopage.html"> About
           </a>
         </li>
 
         <li class="flex-nav-sub">
-          <a class="nav-text" href="contactpage.html">
-            <!-- <p> <b>Contact</b> </p> </a> -->
-            <p> Contact</p> </a>
-          </li>
+          <a class="black" href="contactpage.html">
+           Contact</a>
+         </li>
         </ul>
-      </li>
-  </ul>
+    </nav>
+  </div>
     <!--END OF NAVIGATION BAR -->
 
 
-    <ul class="padding-10 others flex-otherprojects-container padding-side-left padding-side-right padding-20-top" id="otherproject-kevin">
-        <li class="flex-otherprojects width-full">
-          <h3>Other Projects</h3>
-        </li>
-            <li class="flex-otherprojects width-third">
-              <section data-featherlight-gallery data-featherlight-filter="a">
+    <div class="container">
+      <div class="fr-15">
+        <h2 class="fr-15-middle margin-bottom-4 other-h2-title">Other Projects</h2>
+      </div>
+
+      <div class="fr-5-5-5">
+
+        <div class="fr-5-5-5-4">
+          <div class="other-image oi-4">
+            <div class="other-hover">
+              <section class="otherhover-a" data-featherlight-gallery data-featherlight-filter="a">
+            <a href="otherdesign-assets/musuem/musuem1.jpg">
+              <h2 class="PaulGrotesk-Bold other-h2">Mcgill Art Musuem</h2>
+
+              <h6 class="PaulGrotesk-Regular other-h6">Tag: Architecture, 3D Rendering</h6>
+
+            </a>
+
+
+            <a href="otherdesign-assets/musuem/musuem2.jpg"></a>
+            <a href="otherdesign-assets/musuem/musuem3.jpg"></a>
+
+
+
+          </section>
+
+          </div>
+        </div>
+        </div>
+
+
+        <div class="fr-5-5-5-1">
+            <div class="other-image">
+              <div class="other-hover">
+                <section class="otherhover-a" data-featherlight-gallery data-featherlight-filter="a">
+
                 <a href="otherdesign-assets/shell/shell-001.jpg">
-                  <img src="/images/project2.png" alt="">
-                  <h6>Tag: Parametric Design, 3D Printing, Animation</h6>
-                  <h2>Magnetism</h2>
+                  <h2 class="PaulGrotesk-Bold other-h2">Magnetism</h2>
+
+                  <h6 class="PaulGrotesk-Regular other-h6">Tag: Parametric Design, 3D Printing</h6>
                 </a>
 
                 <a href="otherdesign-assets/shell/shell-002.jpg"></a>
@@ -137,349 +170,260 @@
 
               </section>
 
+              </div>
+            </div>
+
+        </div>
+        <div class="fr-5-5-5-2">
+          <div class="other-image oi-2">
+            <div class="other-hover">
+              <section class="otherhover-a" data-featherlight-gallery data-featherlight-filter="a">
+            <a href="otherdesign-assets/multimedia/multimedia 1.JPG">
+              <h2 class="PaulGrotesk-Bold other-h2">Multimedia</h2>
 
+              <h6 class="PaulGrotesk-Regular other-h6">Tag: Pencil Art, Photoshop, Sketches</h6>
+            </a>
 
 
-            </li>
+            <a href="otherdesign-assets/multimedia/multimedia 2.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 3.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 4.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 5.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 6.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 7.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 8.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 9.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 10.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 11.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 12.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 13.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 14.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 15.JPG"></a>
+            <a href="otherdesign-assets/multimedia/multimedia 16.JPG"></a>
 
-            <li class="flex-otherprojects width-third">
-              <section data-featherlight-gallery data-featherlight-filter="a">
-                <a href="otherdesign-assets/multimedia/multimedia 1.JPG">
-                  <img src="/images/project3.png" alt="">
-                  <h6>Tag: Pencil Art, Photoshop, Sketches</h6>
-                  <h2>Multimedia</h2>
-                </a>
 
 
-                <a href="otherdesign-assets/multimedia/multimedia 2.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 3.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 4.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 5.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 6.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 7.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 8.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 9.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 10.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 11.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 12.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 13.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 14.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 15.JPG"></a>
-                <a href="otherdesign-assets/multimedia/multimedia 16.JPG"></a>
 
+          </section>
 
+          </div>
+        </div>
+        </div>
 
 
-              </section>
 
-            </li>
+      <div class="fr-5-5-5-5">
+        <div class="other-image oi-5">
+          <div class="other-hover">
+            <section class="otherhover-a" data-featherlight-gallery data-featherlight-filter="a">
+          <a href="otherdesign-assets/pavis/pavis-001.jpg">
+            <h2 class="PaulGrotesk-Bold other-h2">Pavis ReDesign</h2>
 
-            <li class="flex-otherprojects width-third">
-              <section data-featherlight-gallery data-featherlight-filter="a">
-                <a href="otherdesign-assets/model/model1.JPG">
-                  <img src="images/project5.png" alt="">
-                  <h6>Tag: Model Construction, Photography</h6>
-                  <h2>Models</h2>
-                </a>
+            <h6 class="PaulGrotesk-Regular other-h6">Tag: Research, Conceptual Development</h6>
+          </a>
 
+          <a href="otherdesign-assets/pavis/pavis-002.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-003.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-004.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-005.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-006.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-007.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-008.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-009.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-010.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-011.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-012.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-013.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-014.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-015.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-016.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-017.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-018.jpg"></a>
+          <a href="otherdesign-assets/pavis/pavis-019.jpg"></a>
 
-                <a href="otherdesign-assets/model/model2.JPG"></a>
-                <a href="otherdesign-assets/model/model3.JPG"></a>
-                <a href="otherdesign-assets/model/model4.JPG"></a>
-                <a href="otherdesign-assets/model/model5.JPG"></a>
-                <a href="otherdesign-assets/model/model6.JPG"></a>
-                <a href="otherdesign-assets/model/model7.JPG"></a>
-                <a href="otherdesign-assets/model/model8.JPG"></a>
-                <a href="otherdesign-assets/model/model9.JPG"></a>
-                <a href="otherdesign-assets/model/model10.JPG"></a>
-                <a href="otherdesign-assets/model/model11.JPG"></a>
+        </section>
 
+        </div>
+      </div>
+      </div>
 
 
+      <div class="fr-5-5-5-3">
+        <div class="other-image oi-3">
+          <div class="other-hover">
+            <section class="otherhover-a" data-featherlight-gallery data-featherlight-filter="a">
+          <a href="otherdesign-assets/model/model1.JPG">
+            <h2 class="PaulGrotesk-Bold other-h2">Models</h2>
 
+            <h6 class="PaulGrotesk-Regular other-h6">Tag: Model Construction, Photography</h6>
+          </a>
 
 
-              </section>
+          <a href="otherdesign-assets/model/model2.JPG"></a>
+          <a href="otherdesign-assets/model/model3.JPG"></a>
+          <a href="otherdesign-assets/model/model4.JPG"></a>
+          <a href="otherdesign-assets/model/model5.JPG"></a>
+          <a href="otherdesign-assets/model/model6.JPG"></a>
+          <a href="otherdesign-assets/model/model7.JPG"></a>
+          <a href="otherdesign-assets/model/model8.JPG"></a>
+          <a href="otherdesign-assets/model/model9.JPG"></a>
+          <a href="otherdesign-assets/model/model10.JPG"></a>
+          <a href="otherdesign-assets/model/model11.JPG"></a>
 
 
 
 
 
-            </li>
 
-            <li class="flex-otherprojects width-third margin-none">
+        </section>
 
-              <section data-featherlight-gallery data-featherlight-filter="a">
-                <a href="otherdesign-assets/musuem/musuem1.jpg">
-                  <img src="images/project1.png" alt="">
-                  <h6>Tag: Architecture, 3D Rendering</h6>
-                  <h2>Mcgill Art Musuem</h2>
+        </div>
+      </div>
+      </div>
 
-                </a>
 
+    </div>
 
-                <a href="otherdesign-assets/musuem/musuem2.jpg"></a>
-                <a href="otherdesign-assets/musuem/musuem3.jpg"></a>
 
+      <div class="fr-15">
+        <h2 class="fr-15-middle margin-bottom-4 other-h2-title">Photography</h2>
+      </div>
 
+      <div class="other-image insta-pic ">
+        <div class="other-hover insta-hover">
+          <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+          <h6 class="PaulGrotesk-semibold other-h6 insta-h6">View more at my Instagram</h6>
+          </a>
+</div>
 
+</div>
 
-
-
-
-
-              </section>
-
-            </li>
-
-
-
-
-
-            <li class="flex-otherprojects width-third margin-none">
-
-              <section data-featherlight-gallery data-featherlight-filter="a">
-                <a href="otherdesign-assets/pavis/pavis-001.jpg">
-                  <img src="images/project4.png" alt="">
-                  <h6>Tag: Research, Conceptual Development</h6>
-                  <h2>Pavis ReDesign</h2>
-                </a>
-
-                <a href="otherdesign-assets/pavis/pavis-002.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-003.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-004.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-005.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-006.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-007.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-008.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-009.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-010.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-011.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-012.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-013.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-014.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-015.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-016.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-017.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-018.jpg"></a>
-                <a href="otherdesign-assets/pavis/pavis-019.jpg"></a>
-
-              </section>
-            </li>
-          </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <ul class="flex-gallery-container others padding-side-left padding-side-right padding-10">
-
-
-              <li class="flex-gallery width-full">
-                <h3>Photography</h3>
-
-
-              </li>
-              <li class="flex-gallery width-third ">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img1.png">
-                  <img src="images/img1.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img2.png">
-                  <img src="images/img2.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img3.png">
-                  <img src="images/img3.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img4.png">
-                  <img src="images/img4.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img5.png">
-                  <img src="images/img5.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img6.png">
-                  <img src="images/img6.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img7.png">
-                  <img src="images/img7.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img8.png">
-                  <img src="images/img8.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-third">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-
-                <a href="images/img9.png">
-                  <img src="images/img9.png" alt="">
-                </a>
-              </section>
-
-              </li>
-
-              <li class="flex-gallery width-full" id="gallery-link">
-
-                  <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-                    <p>View more at my Instragram</p>
-                  </a>
-
-
-              </li>
-
-            </ul>
-
-
-
+</div>
 
 <!--END OF PROJECT DISPLAY -->
 
 
 <!-- BEGIN OF CONTACT-->
-<ul class="flex-contact-container background-gray padding-10 " id="contact-template">
+<div class="container bg-purple">
 
-  <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right" id="max-width-contact">
-    <h3>Let's chat!</h3>
-    <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
-  </li>
 
-  <li class="flex-contact width-full">
-    <ul class="flex-contact-subcontainer" id="contact-footer">
 
-      <li class="flex-contact-sub uni-button padding-2-bottom ">
-        <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
-          Resume
-        </a>
-      </li>
+    <section class="fr-7-8 contact">
+      <div class="fr-7-8-left">
+        <h3 class="contact-h3">Let's connect!</h3>
 
-      <li class="flex-contact-sub uni-button padding-2-bottom">
-        <section data-featherlight-gallery data-featherlight-filter="a">
-          <a href="Additional Files/qr codes.png">
+      </div>
+
+      <!-- desktop -->
+      <div class="fr-7-8-right mobile-hidden desk-show">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
             QR Codes
           </a>
-        </section>
-      </li>
+ with Messenger or Wechat, <br>
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also, <br>
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
 
-    </ul>
-  </li>
+      <!-- mobile -->
+      <div class="fr-7-8-right mobile-show desk-hidden">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
+            QR Codes
+          </a>
+ with Messenger or Wechat,
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also,
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
 
-</ul>
-<!-- END OF CONTACT-->
 
 
-<!-- BEGIN OF FOOTER-->
-<ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
-  <li class="flex-footer width-full padding-5-bottom " >
+</section>
 
-    <ul class="flex-footer-subcontainer flex-footer-width ">
+</div>
+        <!-- END OF CONTACT-->
+<hr class="line">
 
-      <li class="flex-footer-sub">
-        <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-          <i class="fab fa-instagram" aria-hidden="true"></i>
-        </a>
-      </li>
+<div class="container bg-purple">
 
-      <li class="flex-footer-sub">
-        <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
-          <i class="fab fa-linkedin" aria-hidden="true">
-          </i>
-        </a>
-      </li>
+      <!-- BEGIN OF FOOTER-->
 
-      <li class="flex-footer-sub ">
-        <a href="https://www.facebook.com/wangzunshi" target="_blank">
-          <i class="fab fa-facebook" aria-hidden="true"></i>
-        </a>
-      </li>
 
-      <li class="flex-footer-sub">
-        <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
-          <i class="far fa-envelope" aria-hidden="true">
-          </i>
-        </a>
-      </li>
+      <section class="fr-7-4-4 footer">
+        <div class="fr-7-4-4-left">
+          <h3 class="footer-h3">Thanks for visiting!</h3>
 
-    </ul>
+        </div>
 
-  </li>
+        <div class="fr-7-4-4-middle">
+          <ul class="flex-footer-subcontainer flex-footer-width ">
 
-  <li class="flex-footer width-full" >
-    <h6> © 2018  zunshi wang </h6>
-  </li>
+            <li class="flex-footer-sub">
+              <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+            </li>
 
-</ul>
+            <li class="flex-footer-sub">
+              <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+
+            <li class="flex-footer-sub ">
+              <a href="https://www.facebook.com/wangzunshi" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
+            </li>
+
+            <li class="flex-footer-sub">
+              <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
+                <i class="far fa-envelope" aria-hidden="true">
+                </i>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="fr-7-4-4-right">
+          <h6 class="footer-h6"> © 2018  zunshi wang </h6>
+
+
+        </div>
+      </section>
+
+      <!-- END OF FOOTER-->
+
+
+</div>
+
 <!-- END OF FOOTER-->
 
 <!-- JAVASCRIPT  -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="//code.jquery.com/jquery-latest.js"></script>
-<script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-<script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+<!-- <script src="//code.jquery.com/jquery-latest.js"></script> -->
+<!-- <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script> -->
+<!-- <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script> -->
 <script src="js/scrollTo.min.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -487,6 +431,10 @@
 <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
 <!-- ALL LINK REFERENCES END -->
+
 </body>
 </html>

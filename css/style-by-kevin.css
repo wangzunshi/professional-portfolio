@@ -343,107 +343,9 @@ li {
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
-/* HOVERS BEGIN */
-
-#portal a i:hover {
-  opacity: .5;
-
-}
 
 
-.imagehover img:hover, .imagehover img:active {
-  opacity: 0.5;
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
-  transition: all 0.4s ease 0s;
 
-}
-
-
-.button-otherdesign a:hover, .button-otherdesign a:active {
-  border-color: white;
-  border-style: solid;
-  border-width: 0.01em;
-  opactiy: 0.65;
-  background-color: #454545;
-  color: white;
-}
-
-.uni-button a:hover, .uni-button a:active, .uni-button a:hover, .uni-button a:active  {
-
-  opacity: 0.5;
-
-
-}
-
-.quick-access p:hover, .quick-access p:active ,.left-text h5:hover, .left-text h5:active, .right-text h5:hover, .right-text h5:active, .section-text h5:hover, .section-text h5:active, .button-otherdesign a:hover, .button-otherdesign a:active{
-  opacity: 0.5;
-}
-
-.others a:hover, .others a:active, .otherprojects img:hover, .otherprojects img:active {
-  opacity: 0.5;
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
-}
-
-
-.flex-nav-container p {
-  color: #696969 ;
-}
-.flex-nav-container p:hover, .flex-nav-container p:active {
-  opacity: 1;
-  color: #000000;
-  font-weight: 400;
-  transition: all 0.5s ease 0s;
-}
-
-
-#casestudy a:hover, #casestudy a:active {
-  color: #ffffff ;
-  background: #1B76FF;
-  transition: all 0.3s ease 0s;
-  border-color: #1B76FF;
-  opacity: 1;
-}
-
-#contact-footer a:hover, #contact-footer a:active  {
-  color: #ffffff ;
-  background: #454545;
-  transition: all 0.3s ease 0s;
-  border-color: #454545;
-  opacity: 1;
-}
-
-.button-prototype a:hover, .button-prototype a:active {
-  background-color: #FFAF1B;
-  opacity: 1;
-  border-color: #FFAF1B;
-  transition: all 0.4s ease 0s;
-
-}
-
-#button-otherdesign a:hover, #button-otherdesign a:active {
-  border-color: #454545;
-  transition: all 0.4s ease 0s;
-  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-}
-
-.flex-footer-sub a:hover, .flex-footer-sub a:active {
-  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-}
-
-.flex-realm-content h6:hover, .flex-real-content h6:active {
-  color: #FFAF1B;
-  transition: all 0.4s ease 0s;
-
-}
-
-.hover-image img:hover {
-  opacity: 0.5;
-  transition: all 0.4s ease 0s;
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.16), 0 4px 15px rgba(0, 0, 0, 0.14);
 
 
 }
@@ -628,8 +530,8 @@ li {
 }
 
 #box-text h1 {
-  line-height: 170%;
-  width: 86.7%;
+  line-height: 130%;
+  width: 76.7%;
   margin: 0 auto;
 }
 
@@ -661,6 +563,7 @@ li {
 */
 
 
+
 #mains h1 {
   font-weight: 200;
   text-align: left;
@@ -669,8 +572,9 @@ li {
 #mains p {
   font-weight: 600;
   text-align: left;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
+  line-height: 145%;
 }
 
 #mains h6 {
@@ -702,6 +606,7 @@ li {
 
 #linetwo {
   padding-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 #casestudy {
@@ -731,10 +636,20 @@ li {
 
 #tools h3 {
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
+  font-weight: 300;
 }
 
+#tools {
+  background-color: rgb(255, 255, 255, 0);
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
 
+.home-tools {
+  width: 75%;
+  /* opacity: 0.8; */
+}
 /* design process  */
 
 .flex-designprocess-container {
@@ -1005,95 +920,6 @@ li {
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 
-/* contact page */
-
-
-.flex-contactform-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.flex-contactform{
-  list-style-type: none;
-  margin: 0 auto;
-}
-
-.contactpage-background {
-  background-image: url(../images/bio-backgroundlogo.png);
-  background-repeat: no-repeat;
-  background-position: 47% 50%;
-  background-size: 50%;
-  background-attachment: fixed;
-}
-
-#contactpage-text h1{
-  font-weight: 400;
-  text-align: center;
-
-}
-
-#contactpage-text h3 {
-  font-weight: 200;
-  text-align: center;
-  padding-top: 3rem;
-}
-
-.form-field {
-  background-color: transparent;
-  border-radius: 1rem;
-  border-style: solid;
-  border-width: 0.1rem;
-  display: block;
-  font-family: Filson-soft, sans-serif;
-  font-size: 2.2rem;
-  font-weight: 100;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-  min-height: 5rem;
-  padding: 1rem 0 1rem 1rem;
-  width: 46.7%;
-}
-
-.textarea {
-  min-height: 25rem;
-}
-
-input:focus, textarea:focus{
-  outline: none !important;
-  border:0.1rem solid lightgray;
-}
-
-.submit-button {
-  background-color: #454545;
-  border-radius: 0.5rem;
-  border-width: 0.13rem;
-  border-style: solid;
-  border-color: #454545;
-
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Overlock, sans-serif;
-  font-weight: 500;
-  font-size: 1.6rem;
-  margin: 0 auto;
-  padding: 0.7rem 4.2rem 0.7rem 4.2rem;
-  text-align: center;
-
-
-
-}
-
-input:hover, input:active {
-
-  border-color: #454545;
-  transition: all 0.5s ease 0s;
-  text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-
-}
 
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */
 /* –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––  */

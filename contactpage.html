@@ -23,13 +23,19 @@
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <!-- CSS  -->
+  <link href="css/MyFontsWebfontsKit.css" type="text/css" rel="stylesheet" >
+  <link href="css/grid.css" type="text/css" rel="stylesheet" >
   <link href="css/all.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
+  <!-- <link href="css/featherlight.css" type="text/css" rel="stylesheet" > -->
+  <!-- <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" > -->
   <link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
+  <link href="css/hover-min.css" type="text/css" rel="stylesheet" >
+  <link href="css/style-by-kevin-new.css" type="text/css" rel="stylesheet" >
 
   <!-- FAVI ICON -->
   <link rel="icon" type="image/svg" href="./images/FAVI.png">
@@ -65,61 +71,63 @@
 
 <body>
   <!--BEGIN OF NAVIGATION BAR -->
-  <ul class=" flex-nav-container banner banner-transparent width-full padding-side-left padding-side-right" role="banner">
-    <li class="flex-nav width-logo padding-2-up">
-      <a class="logo" href="index.html">
-        <!-- <img id="logo" src="./images/NAV-LOGO.svg"> -->
-        <img id="logo" src="./images/NAV-LOGO.png">
-      </a>
-    </li>
+<div class="container bg-contact">
+  <nav class="fr-2-13 navbar">
 
-    <li class="flex-nav width-nav-text " id="nav-text">
-      <ul class="flex-nav-subcontainer">
-        <li class="flex-nav-sub smallest-phone-hidden">
-          <a class="nav-text" href="realmpage.html" >
-            <p>Projects</p>
-          </a>
-        </li>
+    <a class=" fr-2-13-left logo" href="index.html">
+      <img id="logo" src="./images/NAV-LOGO.svg">
+    </a>
 
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="biopage.html"> <p>About</p>
-          </a>
-        </li>
-
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="contactpage.html">
-            <!-- <p> <b>Contact</b> </p> </a> -->
-            <p> Contact</p> </a>
-          </li>
-        </ul>
+    <ul class="fr-2-13-right flex-nav-subcontainer">
+      <li class="flex-nav-sub">
+        <a class="black" href="realmpage.html" >
+          Projects
+        </a>
       </li>
-  </ul>
+
+      <li class="flex-nav-sub">
+        <a class="black" href="biopage.html"> About
+        </a>
+      </li>
+
+      <li class="flex-nav-sub">
+        <a class="black" href="contactpage.html">
+         Contact</a>
+       </li>
+      </ul>
+  </nav>
+
+
+
+
+
+
     <!--END OF NAVIGATION BAR -->
 
 
 
-    <ul class=" flex-contactform-container width-full padding-10-top contactpage-background">
-      <li class="flex-contactform  padding-10 padding-side-left padding-side-right" id="contactpage-text">
-        <h1>Hit me Up!</h1>
-        <h3>Do you have any questions? <br>
-          Have any UX problems with your product? <br>
-          I would love to help! Simply drop a quick message below!</h3>
-          <form class="padding-5-up" action="https://formspree.io/kevinzunshi1214@gmail.com" method="post">
-            <input type="text" class="form-field" id="name" maxlength="256" name="name" data-name="Name" placeholder="Name" >
-            <input type="email" class="form-field" id="email" maxlength="256" name="email" data-name="Email" placeholder="Email*"  required="">
-            <textarea  class="form-field textarea" id="field" name="field" placeholder="Enter your message*" maxlength="5000" ></textarea>
-            <div class="padding-2-up button-center">
-              <a href="contactpage.html">
-                <input type="submit" class="submit-button" value="Submit" data-wait="Please wait..." >
-              </a>
-            </div>
-          </form>
-      </li>
+  <div class="fr-7-4-4 contact-page">
+    <div class="fr-7-4-4-middle">
+      <h1 class="cp-h1 PaulGroteskSoft-Bold">Hit me Up!</h1>
+      <h3 class="PaulGrotesk-Regular cp-h3">Is there anything I could help with?  Or if you have any questions? Or just grab a coffee and chill? Simply drop a quick message below!
+      </h3>
+        <form class="padding-5-up" action="https://formspree.io/kevinzunshi1214@gmail.com" method="post">
+          <input type="text" class="form-field" id="name" maxlength="256" name="name" data-name="Name" placeholder="Name" >
+          <input type="email" class="form-field" id="email" maxlength="256" name="email" data-name="Email" placeholder="Email*"  required="">
+          <textarea  class="form-field textarea" id="field" name="field" placeholder="Enter your message*" maxlength="5000" ></textarea>
+          <div class="padding-2-up button-center">
+            <a href="contactpage.html">
+              <input type="submit" class="submit-button hvr-bounce-in" value="Submit" data-wait="Please wait..." >
+            </a>
+          </div>
+        </form>
+
+    </div>
+  </div>
 
 
-    </ul>
 
-
+</div>
 
 
 
@@ -132,93 +140,135 @@
 
 
 
-        <!-- BEGIN OF CONTACT-->
-        <ul class="flex-contact-container background-gray padding-10 " id="contact-template">
+        <div class="container bg-purple">
 
-          <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right" id="max-width-contact">
-            <h3>Let's chat!</h3>
-            <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
-          </li>
 
-          <li class="flex-contact width-full">
-            <ul class="flex-contact-subcontainer" id="contact-footer">
 
-              <li class="flex-contact-sub uni-button padding-2-bottom ">
-                <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
-                  Resume
-                </a>
-              </li>
+            <section class="fr-7-8 contact">
+              <div class="fr-7-8-left">
+                <h3 class="contact-h3">Let's connect!</h3>
 
-              <li class="flex-contact-sub uni-button padding-2-bottom">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-                  <a href="Additional Files/qr codes.png">
+              </div>
+
+              <!-- desktop -->
+              <div class="fr-7-8-right mobile-hidden desk-show">
+                <p class="contact-p">Simply scan the
+                  <a class="orange" href="Additional Files/qr codes.png">
                     QR Codes
                   </a>
-                </section>
-              </li>
+         with Messenger or Wechat, <br>
+                  Or contact me by filling out this
+                  <a class="orange" href="contactpage.html" target="_blank">
+                    form
+                  </a>
+                  ! Also, <br>
+                  feel free to check out my
+                  <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+                    Resume
+                  </a> !
+                   </p>
+              </div>
 
-            </ul>
-          </li>
+              <!-- mobile -->
+              <div class="fr-7-8-right mobile-show desk-hidden">
+                <p class="contact-p">Simply scan the
+                  <a class="orange" href="Additional Files/qr codes.png">
+                    QR Codes
+                  </a>
+         with Messenger or Wechat,
+                  Or contact me by filling out this
+                  <a class="orange" href="contactpage.html" target="_blank">
+                    form
+                  </a>
+                  ! Also,
+                  feel free to check out my
+                  <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+                    Resume
+                  </a> !
+                   </p>
+              </div>
 
-        </ul>
-        <!-- END OF CONTACT-->
 
 
-        <!-- BEGIN OF FOOTER-->
-        <ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
-          <li class="flex-footer width-full padding-5-bottom " >
+        </section>
 
-            <ul class="flex-footer-subcontainer flex-footer-width ">
+        </div>
+                <!-- END OF CONTACT-->
+        <hr class="line">
 
-              <li class="flex-footer-sub">
-                <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
+        <div class="container bg-purple">
 
-              <li class="flex-footer-sub">
-                <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
-                  <i class="fab fa-linkedin" aria-hidden="true">
-                  </i>
-                </a>
-              </li>
+              <!-- BEGIN OF FOOTER-->
 
-              <li class="flex-footer-sub ">
-                <a href="https://www.facebook.com/wangzunshi" target="_blank">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
 
-              <li class="flex-footer-sub">
-                <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
-                  <i class="far fa-envelope" aria-hidden="true">
-                  </i>
-                </a>
-              </li>
+              <section class="fr-7-4-4 footer">
+                <div class="fr-7-4-4-left">
+                  <h3 class="footer-h3">Thanks for visiting!</h3>
 
-            </ul>
+                </div>
 
-          </li>
+                <div class="fr-7-4-4-middle">
+                  <ul class="flex-footer-subcontainer flex-footer-width ">
 
-          <li class="flex-footer width-full" >
-            <h6> © 2018  zunshi wang </h6>
-          </li>
+                    <li class="flex-footer-sub">
+                      <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
 
-        </ul>
-        <!-- END OF FOOTER-->
+                    <li class="flex-footer-sub">
+                      <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
+                        <i class="fab fa-linkedin" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
 
-      <!-- JAVASCRIPT  -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-      <script src="//code.jquery.com/jquery-latest.js"></script>
-      <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-      <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
-      <script src="js/scrollTo.min.js" type="text/javascript"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
+                    <li class="flex-footer-sub ">
+                      <a href="https://www.facebook.com/wangzunshi" target="_blank">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
 
-      <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-      <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-      <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-      <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-      <!-- ALL LINK REFERENCES END -->
-    </body>
-    </html>
+                    <li class="flex-footer-sub">
+                      <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
+                        <i class="far fa-envelope" aria-hidden="true">
+                        </i>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="fr-7-4-4-right">
+                  <h6 class="footer-h6"> © 2018  zunshi wang </h6>
+
+
+                </div>
+              </section>
+
+              <!-- END OF FOOTER-->
+
+
+        </div>
+
+        <!-- JAVASCRIPT  -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
+
+        <!-- <script src="//code.jquery.com/jquery-latest.js"></script> -->
+        <!-- <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script> -->
+        <!-- <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script> -->
+        <script src="js/scrollTo.min.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+        <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ALL LINK REFERENCES END -->
+
+      </body>
+      </html>

@@ -1,0 +1,5 @@
+AddType application/x-font-ttf           ttc ttf
+AddType application/x-font-otf           otf
+AddType font/woff            woff
+AddType fon/font-woff2           woff2
+AddType application/vnd.ms-fontobject    eot

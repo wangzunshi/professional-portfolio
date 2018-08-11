@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <!-- 内容属性 character set is different encoding methods, UTF-8 is one type that lets you display all special characters and languages
+  <meta charset="utf-8">
+  <!-- 内容属性 character set is different encoding methods, UTF-8 is one type that lets you display all special characters and languages
   -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Viewport meta element: transforms a regular webpage to a responsive webpage, the one included is best/common practice. -->
@@ -23,13 +23,20 @@
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
-
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
   <!-- CSS  -->
+  <link href="css/MyFontsWebfontsKit.css" type="text/css" rel="stylesheet" >
+  <link href="css/grid.css" type="text/css" rel="stylesheet" >
   <link href="css/all.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.css" type="text/css" rel="stylesheet" >
-  <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" >
+  <!-- <link href="css/featherlight.css" type="text/css" rel="stylesheet" > -->
+  <!-- <link href="css/featherlight.gallery.css" type="text/css" rel="stylesheet" > -->
   <link href="css/style-by-kevin.css" type="text/css" rel="stylesheet" >
+  <link href="css/style-by-kevin-new.css" type="text/css" rel="stylesheet" >
   <link rel="stylesheet" href="https://use.typekit.net/rll3ttt.css">
+  <link href="css/hover-min.css" type="text/css" rel="stylesheet" >
+
 
   <!-- FAVI ICON -->
   <link rel="icon" type="image/svg" href="./images/FAVI.png">
@@ -65,286 +72,302 @@
 
 <body>
   <!--BEGIN OF NAVIGATION BAR -->
-  <ul class=" flex-nav-container banner banner-transparent width-full padding-side-left padding-side-right" role="banner">
-    <li class="flex-nav width-logo padding-2-up">
-      <a class="logo" href="index.html">
-        <!-- <img id="logo" src="./images/NAV-LOGO.svg"> -->
-        <img id="logo" src="./images/NAV-LOGO.png">
-      </a>
-    </li>
+<div class="container ">
+  <nav class="fr-2-13 navbar">
 
-    <li class="flex-nav width-nav-text " id="nav-text">
-      <ul class="flex-nav-subcontainer">
-        <li class="flex-nav-sub smallest-phone-hidden">
-          <a class="nav-text" href="realmpage.html" >
-            <p>Projects</p>
-          </a>
-        </li>
+    <a class=" fr-2-13-left logo" href="index.html">
+      <img id="logo" src="./images/NAV-LOGO.svg">
+    </a>
 
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="biopage.html"> <p>About</p>
-          </a>
-        </li>
-
-        <li class="flex-nav-sub">
-          <a class="nav-text" href="contactpage.html">
-            <!-- <p> <b>Contact</b> </p> </a> -->
-            <p> Contact</p> </a>
-          </li>
-        </ul>
-      </li>
-  </ul>
-    <!--END OF NAVIGATION BAR -->
-
-
-
-    <ul class="flex-herobio-container introduction-backgroundimage padding-10-top padding-10" id="introduction">
-      <li class="flex-herobio padding-15-top padding-10-bottom padding-side-left width-60">
-
-        <h3>“I use design to solve real world problems and create a meaningful impact to better the world.”</h3>
-        <p>I believe in user research, iterative and collaborative processes for creation of successful designs. A solid architectural background cross-enhances my understanding for aesthetics, functionality and usability from users’ perspective.</p>
-
-
-        <!-- <h6>Looking for 2019 Summer internship opportunities. Happy to relocate! </h6> -->
-
+    <ul class="fr-2-13-right flex-nav-subcontainer">
+      <li class="flex-nav-sub">
+        <a class="black" href="realmpage.html" >
+          Projects
+        </a>
       </li>
 
-      <li class="flex-herobio padding-10 width-third padding-side-right">
-        <img src="images/bio-profilepicture.png" alt="">
+      <li class="flex-nav-sub">
+        <a class="black" href="biopage.html"> About
+        </a>
       </li>
 
-
-      <li class="flex-herobio padding-10-top padding-10-bottom width-11-15 padding-side-left padding-side-right" id="bio-text">
-        <h1>I AM...</h1>
-        <p>I am a humble and avid learner, a decisive executor, and both a creative and logical thinker.
-          <br>
-          When I’m not designing, you can find me gymming, playing badminton, practicing meditation, taking photos with my DSLR, or reading books. Right now I’m reading Steve Jobs Biography! However, what I enjoy the most is knowing that I’m becoming a better person from yesterday – an iterative process that serves as my lifelong philosophy.
-          <br>
-          Also, I love meeting new people! Feel free to hit me up!</p>
-        </li>
+      <li class="flex-nav-sub">
+        <a class="black" href="contactpage.html">
+         Contact</a>
+       </li>
       </ul>
-      <!--END OF START BAR -->
+  </nav>
+
+</div>
 
 
-      <!--BEGIN OF I AM -->
 
 
-      <!--END OF I AM -->
-
-      <!--BEGIN OF ARHICTECUTRE TO UX -->
 
 
-      <ul class="flex-trans-container background-almostblack ">
 
-        <li class="flex-trans padding-10  padding-side-left padding-side-right width-full" id="transition">
-          <ul>
-            <li>
-              <h1>architecture to UX DESIGN</h1>
+<img class="mobile-bio-hero-image desk-hidden mobile-show" src="../new-images/bio-hero.png" alt="">
 
+<div class="container mobile-profile-back">
+
+
+
+  <img class="bio-hero-image"  src="../new-images/bio-hero.png" alt="">
+
+
+  <div class="fr-6-9">
+    <h2 class="fr-6-9-left">I am...</h2>
+
+    <p class="fr-6-9-right">
+      I am a humble and avid learner, a decisive executor, and both a creative and logical thinker.
+
+      <br>
+
+      <br>
+
+When I’m not designing, you can find me gymming, playing badminton, practicing meditation, taking photos with my DSLR, or reading books. Right now I’m reading Resonate! However, what I enjoy the most is knowing that I’m becoming a better person from yesterday – an iterative process that serves as my lifelong philosophy.
+
+    </p>
+
+
+
+  </div>
+</div>
+
+<img src="new-images/design-work.png" alt="">
+
+<div class="container">
+  <div class="orange-link-container">
+    <a class="display-a orange-link hvr-icon-forward" href="otherdesignpage.html">
+    Checkout other design work I’ve done
+    <i class="fas fa-caret-right hvr-icon "></i>
+  </a>
+  </div>
+
+
+
+  <div class="fr-6-9">
+    <h2 class="fr-6-9-left">Craftsperson</h2>
+
+    <p class="fr-6-9-right">
+      I love creating and designing things! From either since I was little till taking design as a major, I never stopped experimenting!
+<br><br>
+      Checkout my other design works on the right! There’s a variety of work from drawings, models, parametric design, architectural design, and photography collections! It’s my favorite passtime and favorite things to do!
+    </p>
+
+
+
+  </div>
+
+  <div class="fr-6-9 bi-1">
+    <div class="flex-biotext fr-6-9-left">
+      <h2 class="bio-h2-large">My Path to UX</h2>
+      <h5 class="bio-h5">life lessons along the way</h5>
+
+    </div>
+
+    <p class="fr-6-9-right bio-p">
+I believe the right thinking is very important, no matter if it’s engineering, the humanities, or design. And my transition from architecture to UX played a major role at shaping this. Here are 3 life lessons that this transition has taught me.
+    </p>
+
+
+
+  </div>
+
+  <div class="fr-6-9 bi-2">
+
+    <div class="flex-biotext fr-6-9-left">
+      <h2 class=" bio-h2 PaulGrotesk-Regular">Lesson #1 - Self Realization
+  </h2>
+
+    </div>
+
+
+
+    <p class="fr-6-9-right bio-p">
+A career requires both passion and belief. It’s like a bike, when you got the two wheels under you, you move easier and faster, also with joy. I found my passion for design in architecture, but I found my belief from ux design.
+    </p>
+
+
+
+  </div>
+
+  <div class="fr-6-9 bi-3">
+    <div class="flex-biotext fr-6-9-left">
+      <h2 class=" bio-h2 PaulGrotesk-Regular">Lesson #2 - Growth Mindset
+  </h2>
+
+    </div>
+
+    <p class="fr-6-9-right bio-p">
+Humans can iterate just like how products do. Inspired from the Design of Everyday Things and the Principles, I feel an alignment of work and life by pursuing UX.
+    </p>
+
+
+
+  </div>
+
+  <div class="fr-6-9 bi-4 margin-bottom-10">
+
+    <div class="flex-biotext fr-6-9-left">
+      <h2 class=" bio-h2 PaulGrotesk-Regular">Lesson #3 - Embrace Reality
+  </h2>
+
+
+    </div>
+
+
+    <p class="fr-6-9-right bio-p">
+      UX design is Architecture in the new era. Inspired by a lot of factors.
+      The progress of urbanization in the last hundreds of years enabled high frequency of spatial interaction in the cities, reducing population of the countryside that were poor at enabling human interaction.
+Similarly, sensations and interactions are turning from cities to the Internet. Internet is becoming the new City, and cities are destined to be the new countryside.
+    </p>
+
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container bg-purple">
+
+
+
+    <section class="fr-7-8 contact">
+      <div class="fr-7-8-left">
+        <h3 class="contact-h3">Let's connect!</h3>
+
+      </div>
+
+      <!-- desktop -->
+      <div class="fr-7-8-right mobile-hidden desk-show">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
+            QR Codes
+          </a>
+ with Messenger or Wechat, <br>
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also, <br>
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
+
+      <!-- mobile -->
+      <div class="fr-7-8-right mobile-show desk-hidden">
+        <p class="contact-p">Simply scan the
+          <a class="orange" href="Additional Files/qr codes.png">
+            QR Codes
+          </a>
+ with Messenger or Wechat,
+          Or contact me by filling out this
+          <a class="orange" href="contactpage.html" target="_blank">
+            form
+          </a>
+          ! Also,
+          feel free to check out my
+          <a class="orange" href="Additional Files/Updated Resume - 2018-07 most recent.pdf" target="_blank">
+            Resume
+          </a> !
+           </p>
+      </div>
+
+
+
+</section>
+
+</div>
+        <!-- END OF CONTACT-->
+<hr class="line">
+
+<div class="container bg-purple">
+
+      <!-- BEGIN OF FOOTER-->
+
+
+      <section class="fr-7-4-4 footer">
+        <div class="fr-7-4-4-left">
+          <h3 class="footer-h3">Thanks for visiting!</h3>
+
+        </div>
+
+        <div class="fr-7-4-4-middle">
+          <ul class="flex-footer-subcontainer flex-footer-width ">
+
+            <li class="flex-footer-sub">
+              <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
             </li>
-            <li class="right-text-trans mobile-hidden">
 
-              <h1>- a transition with valuable life lessons </h1>
+            <li class="flex-footer-sub">
+              <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
+                <i class="fab fa-linkedin" aria-hidden="true">
+                </i>
+              </a>
             </li>
 
-            <li class="width-11-15 margin-auto-center">
-              <p>I believe the right thinking is very important, no matter if it’s engineering, the humanities, or design. And my transition from architecture to UX played a major role at shaping this. Here are 3 life lessons that this transition has taught me.</p>
-
+            <li class="flex-footer-sub ">
+              <a href="https://www.facebook.com/wangzunshi" target="_blank">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+              </a>
             </li>
 
+            <li class="flex-footer-sub">
+              <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
+                <i class="far fa-envelope" aria-hidden="true">
+                </i>
+              </a>
+            </li>
 
           </ul>
 
-        </li>
+        </div>
 
-      </ul>
+        <div class="fr-7-4-4-right">
+          <h6 class="footer-h6"> © 2018  zunshi wang </h6>
 
 
-      <ul class="flex-trans-container background-gray" id="realization">
+        </div>
+      </section>
 
-        <li class="flex-trans width-half padding-side-left padding-10" >
-          <h5>Self Realization</h5>
-          <p>A career requires both intense passion and belief. It’s like a bike, when you got the two wheels under you, you move easier and faster, also with joy. Inspired by Steve Jobs Biography.</p>
-        </li>
+      <!-- END OF FOOTER-->
 
-        <li class="flex-trans width-half padding-side-right padding-10-top padding-10-bottom " >
-          <img src="images/bio-bike.png" alt="">
-        </li>
 
-      </ul>
+</div>
 
+<!-- JAVASCRIPT  -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> -->
 
+<!-- <script src="//code.jquery.com/jquery-latest.js"></script> -->
+<!-- <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script> -->
+<!-- <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script> -->
+<script src="js/scrollTo.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
 
+<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
 
+<script src="https://unpkg.com/scrollreveal"></script>
 
-      <ul class="flex-trans-container background-white" id="growth">
-        <li class="flex-trans-2 padding-10-top padding-10-bottom  padding-side-left width-half" >
-          <img src="images/bio-mind.png" alt="">
+<!-- ALL LINK REFERENCES END -->
 
-        </li>
-
-        <li class="flex-trans padding-10 padding-side-right width-half">
-          <h5>A Growth Mindset</h5>
-          <p>Humans can iterate just like how products do. Inspired from the Design of Everyday Things and the Principles, I feel an alignment of work and life by pursuing UX.</p>
-
-        </li>
-
-      </ul>
-
-      <ul class="flex-trans-container background-gray" id="reality">
-        <li class="flex-trans padding-10 padding-side-left width-half"  >
-          <h5>Radically Embrace Reality</h5>
-
-          <p>UX design is Architecture in the new era. Inspired by a lot of factors. </p>
-          <p>The progress of urbanization in the last hundreds of years enabled high frequency of spatial interaction in the cities, reducing population of the countryside that were poor at enabling human interaction.
-            Similarly, sensations and interactions are turning from cities to the Internet. </p>
-            <p> Internet is becoming the new City, and cities are destined to be the new countryside. <br>I thrive to design “architecture” for the new “City”.</p>
-
-
-          </li>
-          <li class="flex-trans background-gray padding-10-top padding-10-bottom padding-side-right width-half" >
-
-            <img src="images/bio-transition.png" alt="">
-
-
-          </li>
-        </ul >
-
-        <ul class="flex-trans-container background-white " id="otherdesign">
-          <li class="flex-trans padding-10 padding-side-left width-half">
-            <h1>Craftsperson</h1>
-            <p>I love creating and designing things! From either since I was little till taking design as a major, I never stopped experimenting!
-              <br> <br>
-              Checkout my other design works on the right! There’s a variety of work from drawings, models, parametric design, architectural design, and photography collections! It’s my favorite passtime and favorite things to do!
-            </p>
-
-
-          </li>
-
-
-          <li class="flex-trans padding-10 padding-side-right width-half" id="otherdesign-text">
-            <ul class="flex-trans-subcontainer">
-              <li class="flex-trans-sub" id="other-design-image">
-                <img src="images/bio-pictures.png" alt="">
-
-              </li>
-
-              <li class="flex-trans-sub">
-                <div class="uni-button button-center button-prototype padding-2-up" id="button-otherdesign">
-                  <a href="otherdesignpage.html">
-                    Other Design Works
-                  </a>
-                </div>
-              </li>
-
-            </ul>
-
-
-
-
-          </li>
-        </ul>
-        <!--END OF ARCHTECTURE TO UX -->
-
-
-
-        <!--BEGIN OF OTHER DESIGN WORK -->
-
-
-
-
-
-        <!--END OF OTHER DESIGN WORK -->
-
-
-
-        <!-- BEGIN OF CONTACT-->
-        <ul class="flex-contact-container background-gray padding-10 " id="contact-template">
-
-          <li class="flex-contact width-60 padding-5-bottom padding-side-left padding-side-right" id="max-width-contact">
-            <h3>Let's chat!</h3>
-            <p>Simply scan the following QR code with Messenger or Wechat to connect! Or Contact me with a form! </p>
-          </li>
-
-          <li class="flex-contact width-full">
-            <ul class="flex-contact-subcontainer" id="contact-footer">
-
-              <li class="flex-contact-sub uni-button padding-2-bottom ">
-                <a href="Additional Files/Updated Resume - 2018-07 most recent.pdf">
-                  Resume
-                </a>
-              </li>
-
-              <li class="flex-contact-sub uni-button padding-2-bottom">
-                <section data-featherlight-gallery data-featherlight-filter="a">
-                  <a href="Additional Files/qr codes.png">
-                    QR Codes
-                  </a>
-                </section>
-              </li>
-
-            </ul>
-          </li>
-
-        </ul>
-        <!-- END OF CONTACT-->
-
-
-        <!-- BEGIN OF FOOTER-->
-        <ul class="flex-footer-container background-almostblack padding-10 padding-side-left padding-side-right">
-          <li class="flex-footer width-full padding-5-bottom " >
-
-            <ul class="flex-footer-subcontainer flex-footer-width ">
-
-              <li class="flex-footer-sub">
-                <a href="https://www.instagram.com/zunshi_photography/" target="_blank">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-
-              <li class="flex-footer-sub">
-                <a href="https://www.linkedin.com/in/kevin-wang-a3b729139/" target="_blank">
-                  <i class="fab fa-linkedin" aria-hidden="true">
-                  </i>
-                </a>
-              </li>
-
-              <li class="flex-footer-sub ">
-                <a href="https://www.facebook.com/wangzunshi" target="_blank">
-                  <i class="fab fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-
-              <li class="flex-footer-sub">
-                <a href="mailto:zunshi.wang@mail.mcgill.ca" target="_blank">
-                  <i class="far fa-envelope" aria-hidden="true">
-                  </i>
-                </a>
-              </li>
-
-            </ul>
-
-          </li>
-
-          <li class="flex-footer width-full" >
-            <h6> © 2018  zunshi wang </h6>
-          </li>
-
-        </ul>
-        <!-- END OF FOOTER-->
-
-      <!-- JAVASCRIPT  -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-      <script src="//code.jquery.com/jquery-latest.js"></script>
-      <script src="js/featherlight.gallery.js" type="text/javascript" charset="utf-8"></script>
-      <script src="js/featherlight.js" type="text/javascript" charset="utf-8"></script>
-      <script src="js/scrollTo.min.js" type="text/javascript"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/detect_swipe/2.1.4/jquery.detect_swipe.min.js" type="text/javascript" charset="utf-8"></script>
-
-      <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
-      <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
-      <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-      <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js" type="text/javascript" charset="utf-8"></script>
-      <!-- ALL LINK REFERENCES END -->
-    </body>
-    </html>
+</body>
+</html>
